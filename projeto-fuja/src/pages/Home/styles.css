@@ -1,6 +1,6 @@
 .container{
     background-color: gray;
-    height: 150vh;
+    min-height: 100vh;
     width: 100vw;
     font-family: 'Roboto', sans-serif;
 }
