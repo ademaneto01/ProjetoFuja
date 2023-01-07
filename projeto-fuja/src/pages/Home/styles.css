@@ -4,7 +4,65 @@
 }
 
 .mainVideo {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.containerCarrousel {
+  display: flex;
+
   height: 100vh;
 
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: row;
+  background-color: rgb(214, 130, 130);
+}
+.infosCarrousel {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+
+  height: 28em;
+  width: 60em;
+}
+.boxImgCarrousel {
+  width: 15em;
+  height: 15em;
+
+  background-color: black;
+}
+.screamVideosFuja {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  background-color: rgb(68, 88, 88);
+}
+.boxPrincipalInfosVideos {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-around;
+  height: 30em;
+}
+.boxVideos {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 12em;
+}
+.video {
+  width: 16em;
+  height: 12em;
   background-color: black;
 }
