@@ -1,6 +1,10 @@
-.container{
-    background-color: gray;
-    height: 150vh;
-    width: 100vw;
-    font-family: 'Roboto', sans-serif;
+.container {
+  background-color: gray;
+  height: auto;
+}
+
+.mainVideo {
+  height: 100vh;
+
+  background-color: black;
 }
