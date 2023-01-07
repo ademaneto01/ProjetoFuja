@@ -1,10 +1,11 @@
 header{
+    position: fixed;
+    width: 100vw;
     background-color: #fff;
     padding: 1em;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
 }
 
 button{
@@ -13,24 +14,29 @@ button{
     padding: 1em;
     font-size: 1.1em;
     font-weight: 600;
-    border: solid 2px #000;
+    border: solid 1px #000;
     border-radius: 30px;
     cursor: pointer;
 }
 
 nav{
-    height: 2em;
-    width: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 3.5em;
+    width: 3.5em;
+    background-color: transparent;
     cursor: pointer;
     padding: 1em;
-    border: solid 2px #000;
+    border: solid 1px #000;
     border-radius: 50%;
 
 }
 .menu-icon{
-    height: 2em;
-    width: 2em;
+    height: 1em;
+    width: 1em;
+}
+
+nav:hover, button:hover {
+    background-color: #becc40;
 }
