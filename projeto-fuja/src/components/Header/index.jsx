@@ -1,6 +1,6 @@
 import './styles.css'
 const Header = () => (
-    <header>
+    <header className='header'>
         <nav>
             <img src="/img/menu.png" alt="simbolo de menu" className='menu-icon'/>
         </nav>
