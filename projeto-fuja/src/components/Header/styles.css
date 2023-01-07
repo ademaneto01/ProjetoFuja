@@ -1,7 +1,36 @@
 header{
-    background-color: red;
+    background-color: #fff;
     padding: 1em;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
+}
+
+button{
+    all: unset;
+    background-color: transparent;
+    padding: 1em;
+    font-size: 1.1em;
+    font-weight: 600;
+    border: solid 2px #000;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+nav{
+    height: 2em;
+    width: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 1em;
+    border: solid 2px #000;
+    border-radius: 50%;
+
+}
+.menu-icon{
+    height: 2em;
+    width: 2em;
 }

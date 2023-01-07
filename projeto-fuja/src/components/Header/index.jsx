@@ -1,9 +1,11 @@
 import './styles.css'
 const Header = () => (
     <header>
-        <h1>menu</h1>
-        <h1>teste</h1>
-        <h1>info</h1>
+        <nav>
+            <img src="/img/menu.png" alt="simbolo de menu" className='menu-icon'/>
+        </nav>
+        <h1>Fuja</h1>
+        <button>Contrate o Fuja</button>
     </header>
 )
 
