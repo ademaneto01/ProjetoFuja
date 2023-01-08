@@ -6,8 +6,25 @@ function App() {
   return (
     <div className="container">
       <Header />
-      <div className="mainVideo">
-        <h1>Sua produção audiovisual fora do convencional</h1>
+      <div className="screamVideo">
+        <video
+          id="mainVideo"
+          width="100%"
+          src="/img/teste.mp4"
+          autoPlay
+          muted
+          loop
+        ></video>
+        <div id="boxTextVideoPrincipal">
+          <h1>
+            Sua produção audiovisual <br></br>fora do convencional
+          </h1>
+          <p>
+            Trabalhando de forma leve e autêntica, o Fuja une criatividade e
+            tecnologia <br></br> como forma de dar protagonismo às suas
+            produções
+          </p>
+        </div>
       </div>
       <div className="containerCarrousel">
         <div className="infosCarrousel">
