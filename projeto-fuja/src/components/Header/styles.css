@@ -18,6 +18,10 @@
   border-radius: 30px;
   cursor: pointer;
 }
+.logo-icon {
+  border-radius: 50%;
+  cursor: pointer;
+}
 
 .header nav {
   display: flex;
@@ -37,6 +41,7 @@
 }
 
 .header nav:hover,
-.header button:hover {
+.header button:hover,
+.logo-icon:hover {
   background-color: #becc40;
 }

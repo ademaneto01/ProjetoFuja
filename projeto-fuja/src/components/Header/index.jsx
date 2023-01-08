@@ -1,12 +1,16 @@
-import './styles.css'
+import "./styles.css";
 const Header = () => (
-    <header className='header'>
-        <nav>
-            <img src="/img/menu.png" alt="simbolo de menu" className='menu-icon'/>
-        </nav>
-        <h1>Fuja</h1>
-        <button>Contrate o Fuja</button>
-    </header>
-)
+  <header className="header">
+    <nav>
+      <img src="/img/menu.png" alt="simbolo de menu" className="menu-icon" />
+    </nav>
 
-export default Header
+    <a href="/">
+      <img src="/img/logoFuja.svg" alt="logoFuja" className="logo-icon" />
+    </a>
+
+    <button>Contrate o Fuja</button>
+  </header>
+);
+
+export default Header;

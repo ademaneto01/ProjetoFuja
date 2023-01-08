@@ -9,8 +9,8 @@ function App() {
       <div className="screamVideo">
         <video
           id="mainVideo"
-          width="100%"
           src="/img/teste.mp4"
+          width="100%"
           autoPlay
           muted
           loop
@@ -43,15 +43,42 @@ function App() {
             O Fuja é jovem, mas já trabalhou e já teve o seu <br></br> conteúdo
             veiculado em vários locais
           </h1>
-          <h2 className="subtileVideos">
+          <h2 className="subTitleVideos">
             Seja um vídeo de 5 segundos ou um curta-metragem, a equipe do Fuja
             possui os melhores<br></br> equipamentos para a produção de um
             conteúdo objetivo, diferente e engajador.
           </h2>
           <div className="boxVideos">
-            <div className="video"></div>
-            <div className="video"></div>
-            <div className="video"></div>
+            <div className="video">
+              <iframe
+                id="frameVideo"
+                src="https://www.youtube.com/embed/5qNuWjvGkqE"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div className="video">
+              <iframe
+                id="frameVideo"
+                src="https://www.youtube.com/embed/pQhf-aswL40"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div className="video">
+              <iframe
+                id="frameVideo"
+                src="https://www.youtube.com/embed/j6jLser3orY"
+                title="YouTube video player"
+                frameborder="0"
+                allow=" clipboard-write; encrypted-media; gyroscope; picture-in-picture;  web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
@@ -83,6 +110,20 @@ function App() {
               <h3>Tanananan</h3>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="screamPortalAventuras">
+        <div className="infosPortal">
+          <h1>Portal de aventuras</h1>
+          <p>
+            O Fuja também possui uma plataforma integrada para conectar
+            viajantes à natureza.<br></br>
+            São mais de 1700 passeios por todo o Brasil para você sair do
+            convencional
+          </p>
+          <a id="btnPortalAventuras" href="https://www.fuja.com.br/">
+            Conheça aqui
+          </a>
         </div>
       </div>
       <Footer />
