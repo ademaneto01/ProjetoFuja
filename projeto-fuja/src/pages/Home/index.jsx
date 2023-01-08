@@ -1,5 +1,7 @@
 import "./styles.css";
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+
 function App() {
   return (
     <div className="container">
@@ -36,6 +38,37 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="screamProducts">
+        <div className="containerProducts">
+          <h1>
+            Deixe o Fuja destacar o seu projeto através de<br></br> produções
+            audiovisuais profissionais
+          </h1>
+          <div className="containerBolProducts">
+            <div className="boxProducts">
+              <div className="bolProdutcs"></div>
+              <h3>Drone</h3>
+            </div>
+            <div className="boxProducts">
+              <div className="bolProdutcs"></div>
+              <h3>Vídeo</h3>
+            </div>
+            <div className="boxProducts">
+              <div className="bolProdutcs"></div>
+              <h3>Fotos</h3>
+            </div>
+            <div className="boxProducts">
+              <div className="bolProdutcs"></div>
+              <h3>Produção</h3>
+            </div>
+            <div className="boxProducts">
+              <div className="bolProdutcs"></div>
+              <h3>Tanananan</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }
