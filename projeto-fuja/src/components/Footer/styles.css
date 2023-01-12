@@ -69,10 +69,10 @@ nav a:hover {
 
 .social-media-icons {
   display: flex;
+  justify-content: space-around;
   margin-bottom: 2em;
 }
 .social-media-icons a {
-  margin-right: 1em;
   cursor: pointer;
 }
 .contact a {
