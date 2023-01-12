@@ -14,7 +14,7 @@
 .left-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   border-right: solid 1px #666;
   height: 10em;
   width: 100%;
@@ -22,6 +22,10 @@
 }
 .logo {
   margin-right: 4em;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #fff;
+  height: 7em;
 }
 .left-container p {
   font-size: 1.8em;

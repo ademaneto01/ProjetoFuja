@@ -2,7 +2,9 @@ import './styles.css'
 const Footer = () => (
     <footer className='footer'>
         <div className='left-container'>
-            <h1 className='logo'>logo</h1>
+            <a href="/">
+                <img src="/img/logoFuja.svg" alt="logoFuja" className="logo" />
+            </a>
             <p>A sua produção audiovisual fora do convencional</p>
         </div>
         <div className='right-container'>
