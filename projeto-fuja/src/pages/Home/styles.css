@@ -2,13 +2,38 @@
   background-color: gray;
   height: auto;
 }
-
-.mainVideo {
+.screamVideo {
   display: flex;
-
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+#boxTextVideoPrincipal {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  position: absolute;
+  width: 70em;
+  height: 15em;
+}
+#boxTextVideoPrincipal h1 {
+  text-align: center;
+  color: #ffffff;
+
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0em;
+}
+#boxTextVideoPrincipal p {
+  text-align: center;
+  color: #ffffff;
+
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 34px;
 }
 .containerCarrousel {
   display: flex;
@@ -19,7 +44,7 @@
   align-items: center;
 
   flex-direction: row;
-  background-color: rgb(214, 130, 130);
+  background-color: #ffffff;
 }
 .infosCarrousel {
   display: flex;
@@ -30,6 +55,7 @@
   height: 28em;
   width: 60em;
 }
+
 .boxImgCarrousel {
   width: 15em;
   height: 15em;
@@ -44,7 +70,7 @@
 
   height: 100vh;
 
-  background-color: rgb(68, 88, 88);
+  background-color: #333333;
 }
 .boxPrincipalInfosVideos {
   display: flex;
@@ -52,17 +78,146 @@
   flex-direction: column;
 
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 30em;
+}
+.titleVideos {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 48px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.subTitleVideos {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36px;
+
+  text-align: center;
+
+  color: #ffffff;
 }
 .boxVideos {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  height: 12em;
+  height: 13em;
 }
 .video {
-  width: 16em;
-  height: 12em;
-  background-color: black;
+  width: 20em;
+  height: 13em;
+}
+#frameVideo {
+  width: 100%;
+  height: 100%;
+}
+.screamProducts {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  background-color: #ffffff;
+}
+.containerProducts {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+  height: 18em;
+  width: 60em;
+}
+.containerProducts h1 {
+  text-align: center;
+}
+
+.containerBolProducts {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 10em;
+}
+.bolProdutcs {
+  display: flex;
+  width: 8em;
+  height: 8em;
+
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.boxProducts {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: center;
+
+  height: 10em;
+}
+.screamPortalAventuras {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  background-image: url(../../../public/img/imgPortalAventuras.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.infosPortal {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: center;
+
+  height: 20em;
+}
+.infosPortal h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 48px;
+
+  color: #ffffff;
+}
+.infosPortal p {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36px;
+
+  text-align: center;
+  color: #ffffff;
+}
+#btnPortalAventuras {
+  all: unset;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #ffffff;
+
+  width: 8em;
+  height: 1em;
+
+  background-color: transparent;
+  padding: 1em;
+  font-size: 1.1em;
+  font-weight: 600;
+
+  border-radius: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+#btnPortalAventuras:hover {
+  background-color: #becc40;
 }
