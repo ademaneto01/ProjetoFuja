@@ -1,5 +1,6 @@
 import "./styles.css";
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 function App() {
   return (
     <div className="container">
@@ -36,6 +37,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
