@@ -13,9 +13,9 @@ export default function Contact() {
             <h2>Entre em contato</h2>
             <a href="mailto:fuja@gmail.com">fuja@gmail.com</a>
             <a href="tel:5511983743838">+55 (11) 98374-3838</a>
-            <div className="social-media">
+            <div className="contactSocialMedia">
                 <p>Acompanhe a gente nas redes sociais</p>
-                <div className='social-media-icons'>
+                <div className='contactSocialMediaIcons'>
                     <a  href="https://www.youtube.com/"><img src="/img/social-icons/youtube.svg" alt="youtube"/></a>
                     <a  href="https://www.instagram.com/"><img src="/img/social-icons/insta.svg" alt="insta"/></a>
                     <a  href="https://www.tiktok.com/"><img src="/img/social-icons/tiktok.svg" alt="tiktok"/></a>
