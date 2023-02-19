@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import Home from './pages/Home';
-import Contact from './pages/Contact';
+import { BrowserRouter } from 'react-router-dom';
+import MyRoutes from './routes';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Contact />
+    <BrowserRouter>
+      <MyRoutes />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
