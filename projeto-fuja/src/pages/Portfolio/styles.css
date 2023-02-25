@@ -347,12 +347,23 @@ color: #333333;
 
   height: 95vh;
 
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 
   flex-direction: column;
   
   background-color: #333333;
+}
+.ContainerTitleDepoimento{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+
+  width: 1128px;
+
+  color:#FFFFFF;
 }
 .containerInfoDepoimentos{
   display: flex;
@@ -362,23 +373,81 @@ color: #333333;
   height: 425px;
 }
 .boxDepoimentos {
+  display: flex;
+
+  justify-content: space-around;
+
+  flex-direction: column;
   width: 552px;
 height: 305px;
 
+padding-left: 41px;
+
 background: #F4F4F4;
 border-radius: 10px;
+
 }
-.textDepoimentos {
+.boxNomeDepoimento {
+  display: flex;
+  
+  flex-direction: column;
+
+  justify-content: space-around;
+  width: 496px;
+  height: 70px;
+
+  
+}
+.nomeDepoimento{
   font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+ 
+  color: #333333;
+}
+#descriDepoimento{
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+
+  color: #333333;
+}
+#textDepoimentos {
+  width: 473px;
+height: 85px;
+
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
-line-height: 34px;
-/* or 142% */
-
-
-/* Gray 1 */
 
 color: #333333;
+}
 
+#pictureDepoimento1{
+  
+  position: absolute;
+
+  margin-top: 335px;
+  margin-left: 180px;
+  background-image: url(../../../public/img/Ellipse14.svg);
+
+  
+  width: 120px;
+  height: 120px;
+}
+#pictureDepoimento2 {
+    
+  position: absolute;
+
+  margin-top: 335px;
+  margin-left: 180px;
+  background-image: url(../../../public/img/Ellipse13.svg);
+
+  
+  width: 120px;
+  height: 120px;
 }

@@ -111,32 +111,36 @@ export default function Portfolio() {
       </div>
     </div>
     <div className="containerDepoimentos">
-    <div className="ContainerTitleTime">
-      <div className="boxTitleTime">
+    <div className="ContainerTitleDepoimento">
               <p>Depoimentos</p>
-      </div>
       </div>
       <div className="containerInfoDepoimentos">
         <div className="boxDepoimentos">
-          <div className="textDepoimentos">
+            <div id="textDepoimentos">
             <p>“A equipe do Fuja não só filma, mas vivencia
                 a questão ambiental. Trazem imagens não
                 só belas, mas emocionantes mesmo.”</p>
-            <br></br>
-            <h4>Clayton Lino</h4>
+              </div>
+            <div className="boxNomeDepoimento">
+            <div className="nomeDepoimento">Clayton Lino</div>
+            <div id="descriDepoimento">
             <p>Presidente da Reserva da Biosfera da Mata Atlântica</p>
-          </div>
-          <div className="pictureDepoimento1"></div>
+            </div>
+            </div>
+          <div id="pictureDepoimento1"></div>
         </div>
         <div className="boxDepoimentos">
-          <div className="textDepoimentos">
+        <div id="textDepoimentos">
             <p>“A live realizada com o Fuja foi linda. 
                 Muita gente assistiu e amou!”</p>
-                <br></br>
-                <h4>Minah Almeida </h4>
+              </div>
+            <div className="boxNomeDepoimento">
+            <div className="nomeDepoimento">Minah Almeida</div>     
+            <div id="descriDepoimento">
             <p>Fundação Terra Mirim</p>
-          </div>
-          <div className="pictureDepoimento2"></div>
+            </div>
+            </div>
+          <div id="pictureDepoimento2"></div>
         </div>
       </div>
     </div>
