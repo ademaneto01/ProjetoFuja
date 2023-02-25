@@ -13,6 +13,8 @@
 }
 .boxImgPortolio {
 height: 50%;
+background-size: cover;
+background-repeat: no-repeat;
 background-image: url(../../../public/img/capaPortfolio.png);
 }
 .boxInfosPortfolioInicial {
