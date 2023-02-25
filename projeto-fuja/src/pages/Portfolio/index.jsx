@@ -144,6 +144,61 @@ export default function Portfolio() {
         </div>
       </div>
     </div>
+    <div className="containerParcerias">
+       
+        <div className="boxImgParcerias">
+        <div className="ContainerTitleParcerias">
+            <div className="boxTitleParcerias">
+              <p>Já trabalhamos com</p>
+            </div>
+        </div>  
+        <div className="containerImgParcerias">
+          <div className="imgsParcerias1">
+              <div className="imgTop1">
+
+              </div>
+              <div className="imgTop2">
+
+              </div>
+              <div className="imgTop3">
+
+              </div>
+              <div className="imgTop4">
+
+              </div>
+              <div className="imgTop5">
+
+              </div>
+              <div className="imgTop6">
+
+              </div>
+              <div className="imgTop7">
+
+              </div>
+          </div>
+          <div className="imgsParcerias1">
+            <div className="imgBottom1">
+
+            </div>
+            <div className="imgBottom2">
+
+            </div>
+            <div className="imgBottom3">
+
+            </div>
+            <div className="imgBottom4">
+
+            </div>
+            <div className="imgBottom5">
+
+            </div>
+            <div className="imgBottom6">
+
+            </div>
+          </div>
+        </div>
+        </div>  
+    </div>
     <Footer/>
     </div>
      

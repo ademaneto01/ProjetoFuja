@@ -451,3 +451,141 @@ color: #333333;
   width: 120px;
   height: 120px;
 }
+.containerParcerias {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #FFFFFF;
+}
+.boxImgParcerias {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+  width: 1128px;
+  height: 320px;
+}
+.ContainerTitleParcerias{
+  width: 1128px;
+}
+.boxTitleParcerias{
+  display: flex;
+
+  align-items: center;
+
+  background-color:  #62CBE9 ;
+
+  width: 464px;
+  height: 22px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+
+  color: #333333;
+}
+.imgsParcerias1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1126px;
+  height: 115px;
+}
+.imgTop1{
+  width: 117px;
+  height: 92px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/img/ParquedasDunas.svg);
+}
+.imgTop2{
+  width: 114px;
+  height: 115px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/img/BaleiaJubarte.svg);
+}
+.imgTop3{
+  width: 138px;
+  height: 115px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/img/Klaus.svg);
+}
+.imgTop4{
+  width: 89px;
+  height: 115px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/img/ECOA-removebg-preview1.svg);
+}
+.imgTop5{
+  width: 123px;
+  height: 115px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/img/Tamar.svg);
+}
+.imgTop6{
+  width: 105px;
+height: 115px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/img/Sapiranga.svg);
+}
+.imgTop7{
+  width: 116px;
+  height: 115px;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-image: url(../../../public/img/TerraMirim.svg);
+}
+.imgBottom1 {
+  width: 169px;
+  height: 46px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/img/globo.svg);
+}
+.imgBottom2 {
+  width: 117px;
+  height: 57px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/img/RPPNLontra.svg);
+}
+.imgBottom3 {
+  width: 135px;
+  height: 92px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/img/RBMATransparente.svg);
+}
+.imgBottom4 {
+  width: 161px;
+  height: 46px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/img/logo_final_taboa.svg);
+}
+.imgBottom5 {
+  width: 112px;
+  height: 57px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/img/ParquedaMAta.svg);
+}
+.imgBottom6 {
+  width: 154px;
+  height: 35px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/img/bracell_logo_FA.svg);
+}
