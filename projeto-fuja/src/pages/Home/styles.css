@@ -1,3 +1,7 @@
+*{
+  outline: 1px solid black;
+}
+
 .container {
   background-color: gray;
   height: auto;
@@ -49,19 +53,49 @@
 }
 .infosCarrousel {
   display: flex;
-
+  
   justify-content: space-around;
   align-items: center;
 
   height: 28em;
   width: 60em;
 }
-
-.boxImgCarrousel {
+.boxImgCarrousel{
+  display: flex;
+  flex-direction: column;
+}
+.boxBtnsCarrousel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+.infosImgCarrousel {
+  display: flex;
+  flex-direction: column;
   width: 15em;
   height: 15em;
 
-  background-color: black;
+ }
+
+.img-test{
+  width: 800px;
+  height: 300px;
+}
+.btn-icon-right {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #becc40;
+
+}
+.btn-icon-right:hover{
+  cursor: pointer;
 }
 .screamVideosFuja {
   display: flex;

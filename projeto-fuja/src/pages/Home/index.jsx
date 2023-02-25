@@ -1,8 +1,29 @@
 import "./styles.css";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import { useState, useEffect } from 'react';
+
+
 
 function App() {
+
+const arrayImg = ["/img/img-carrosel-home/img1.svg", "/img/img-carrosel-home/img2.svg", "/img/img-carrosel-home/img3.svg"]
+const [imgCarrosel, setImgCarrosel] = useState()
+let start = 0;
+const addItem = () => {
+  
+console.log(start)
+start++
+
+}
+
+
+// const removeItem = () => {
+ 
+//   const endRange = Math.max(0, items.length - 1)
+//   setItems(items.slice(0, endRange))
+// }
+
   return (
     <div className="container">
       <Header />
@@ -34,7 +55,15 @@ function App() {
               liberdade.
             </h1>
           </div>
-          <div className="boxImgCarrousel"></div>
+          <div class="boxImgCarrousel">
+          <div className="infosImgCarrousel">
+            
+            <img src={imgCarrosel} alt="img-carrosel"/>
+          </div>
+          <div class="boxBtnsCarrousel"><button class="btn-icon-right" ><img src="/img/icon.svg" alt="icon"/></button><button class="btn-icon-right" onClick={addItem}><img src="/img/icon.svg" alt="icon"/></button></div>
+          
+          </div>
+          
         </div>
       </div>
       <div className="screamVideosFuja">

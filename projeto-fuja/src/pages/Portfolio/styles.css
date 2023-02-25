@@ -1,75 +1,238 @@
-.container {
-  background-color: gray;
+.containerPortfolioFull {
+  background-color: #333333;
   height: auto;
 }
-.contactPage {
+.containerPortolio {
+  display: flex; 
+
+  flex-direction: column;
+
+ 
+  height: 100vh;
+
+}
+.boxImgPortolio {
+height: 50%;
+background-image: url(../../../public/img/capaPortfolio.png);
+}
+.boxInfosPortfolioInicial {
   display: flex;
+
+  flex-direction: column;
 
   justify-content: center;
   align-items: center;
 
-  height: 100vh;
-  background-image: url(../../../public/img/imgPortalAventuras.svg);
+  height: 50%;
+  background-color: #FFFFFF;
+}
+.boxTextIni {
+  display: flex;
+
+  flex-direction: column;
+  
+  justify-content:space-between;
+  
+  width: 1128px;
+  height: 163px;
+}
+.boxTxt{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 34px;
+
+color: #333333;
+}
+.boxTitle {
+  display: flex;
+
+  align-items: center;
+
+  background-color:  #62CBE9 ;
+
+  height: 22px;
+  width: 383px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+
+  color: #333333;
+}
+.txtVideoPortfolio {
+  height: 183px;
+
+  padding-left: 24px;
+
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 34px;
+}
+
+.boxVideosPortfolio {
+  display: flex;
+
+  flex-direction: column;
+  
+  gap: 83px;
+
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #333333;
+  padding-bottom: 83px;
+  
+
+  height: auto;
+}
+.boxTitleVideos {
+
+  width: 1128px;
+
+  padding-top: 42px;
+  margin-bottom:  -40px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 34px;
+
+  color: #FFFFFF;
+}
+
+.ContainerMoviePortfolio{
+  display: flex;
+
+  width: 1128px;
+  height: 305.06px;
+
+  background-color: #FFFFFF;
+}
+.boxVideoPortfolio {
+  width: 552px;
+}
+#boxInfosVideoPortfolio {
+  display: flex;
+  width: 576px;
+  height: 100%;
+  background-color: #333333;
+  flex-direction: column;
+
+}
+.txtVideoPortfolio {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+}
+
+#boxVideoPortfolioOne{
+  background-image: url(../../../public/img/rec01.svg);
+
+  width: 552px;
+
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+#boxVideoPortfolioTwo{
+  background-image: url(../../../public/img/rec2.svg);
+ 
+  width: 552px;
+
   background-repeat: no-repeat;
   background-size: cover;
 }
-.contactPageInfo {
+
+#boxVideoPortfolioTree{
+  background-image: url(../../../public/img/rec3.svg);
+
+  width: 552px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#boxVideoPortfolioFour {
+  background-image: url(../../../public/img/rec04.svg);
+  
+  width: 552px;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#boxVideoPortfolioFive {
+  background-image: url(../../../public/img/rec05.svg);
+
+  width: 552px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.boxBtnVideo {
   display: flex;
 
-  flex-direction: column;
-
-  justify-content: center;
   align-items: center;
+  height: 121px;  
+
+  padding-left: 24px;
 
 }
-.contactPageInfo h1 {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 80px;
-  line-height: 98px;
-  color: #ffffff;
-}
-
-.contactList{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  color: #ffffff;
-  height: 30vh;
-
-}
-.contactList h2{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  letter-spacing: -0.231818px;
-}
-.contactList a {
+#btn1 {
   all: unset;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  cursor: pointer;
-}
-.contactSocialMedia{
-  display: flex;
-  flex-direction: column;
-}
 
-.contactSocialMedia p {
-  font-size: 24px;
-  margin-bottom: 1em;
-}
-.contactSocialMediaIcons{
   display: flex;
-  align-items: center;
+
   justify-content: center;
-  gap: 1em;
+  align-items: center;
+
+  color: #FFFFFF;
+
+  cursor: pointer;
+
+  border: 1px solid  #FFFFFF;
+
+  height: 40px;
+width: 166px;
+border-radius: 32px;
+
 }
 
+#btn1:hover {
+  background-color: #62CBE9;
+  color: #333333;
+}
+#btn2 {
+  all: unset;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  color: #FFFFFF;
+
+  border: 1px solid  #FFFFFF;
+
+  cursor: pointer;
+
+  height: 40px;
+    width: 130px;
+
+  border-radius: 32px;
+}
+
+#btn2:hover {
+  background-color: #62CBE9;
+  color: #333333;
+}
