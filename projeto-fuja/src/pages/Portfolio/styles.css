@@ -236,3 +236,149 @@ border-radius: 32px;
   background-color: #62CBE9;
   color: #333333;
 }
+.containerTime {
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+  
+  flex-direction: column;
+
+  background-color:  #FFFFFF;
+  height: 120vh;
+}
+.ContainerTitleTime{
+  width: 1128px;
+}
+.boxTitleTime{
+  display: flex;
+
+  align-items: center;
+
+  background-color:  #62CBE9 ;
+
+  height: 22px;
+  width: 330px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+
+  color: #333333;
+}
+.boxPicturesTime{
+  display: flex;
+  justify-content: space-around;
+  height: 463px;
+  width: 1128px;
+}
+.pictureTimeMi {
+  width: 264px;
+  height: 264px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/img/equipe03.svg);
+  
+  border-radius: 50%;
+  border: 4px solid #62CBE9;
+}
+.boxPicture{
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: space-evenly;
+}
+.pictureTimePrimo {
+  width: 264px;
+  height: 264px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/img/equipe01.svg);
+  
+  border-radius: 50%;
+  border: 4px solid #62CBE9;
+}
+.pictureTimeMoreno{
+  width: 264px;
+  height: 264px;
+
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/img/equipe2.svg);
+  
+  border-radius: 50%;
+  border: 4px solid #62CBE9;
+}
+.nameTime {
+  width: 182px;
+  height: 34px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+
+  text-align: center;
+  color: #333333;
+}
+.textTime {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+width: 360px;
+height: 96px;
+
+text-align: center;
+
+color: #333333;
+}
+.containerDepoimentos {
+  display: flex;
+
+  height: 95vh;
+
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  
+  background-color: #333333;
+}
+.containerInfoDepoimentos{
+  display: flex;
+
+  justify-content: space-between;
+  width: 1128px;
+  height: 425px;
+}
+.boxDepoimentos {
+  width: 552px;
+height: 305px;
+
+background: #F4F4F4;
+border-radius: 10px;
+}
+.textDepoimentos {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+/* or 142% */
+
+
+/* Gray 1 */
+
+color: #333333;
+
+}

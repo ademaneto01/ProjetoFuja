@@ -81,12 +81,64 @@ export default function Portfolio() {
             Vídeos produzidos na região de Serra Grande a fim de divulgar projetos que acreditamos e pautas que são valores do Fuja
           </div>
           <div className="boxBtnVideo">
-            <button id="btn2">Assistir vídeo</button>
+            <button id="btn2">Assistir vídeos</button>
           </div>
         </div>
       </div>
-
-
+    </div>
+    <div className="containerTime">
+      <div className="ContainerTitleTime">
+      <div className="boxTitleTime">
+              <p>O time do Fuja</p>
+      </div>
+      </div>
+      <div className="boxPicturesTime">
+        <div className="boxPicture">
+          <div className="pictureTimeMi"></div>
+          <div className="nameTime">Fred Becker</div>
+          <div className="textTime"><p>Engenheiro de materiais e produtor audiovisual, é o responsável no Fuja pela gravação, edição e todo processo de arranjo de produção. </p></div>
+        </div>
+        <div className="boxPicture">
+          <div className="pictureTimePrimo"></div>
+          <div className="nameTime">Rafael Juan</div>
+          <div className="textTime">Turismólogo de formação, é a mente por trás da direção e arte dos conteúdos do Fuja. Atua também construindo a conexão entre o Fuja e os projetos de sustentabilidade e responsabilidade socioambiental.</div>
+        </div>
+        <div className="boxPicture">
+          <div className="pictureTimeMoreno"></div>
+          <div className="nameTime">Moreno Becker</div>
+          <div className="textTime">Formado em administração e mestre em Políticas Públicas, é o responsável pela gestão e atividades administrativas do Fuja.</div>
+        </div>
+      </div>
+    </div>
+    <div className="containerDepoimentos">
+    <div className="ContainerTitleTime">
+      <div className="boxTitleTime">
+              <p>Depoimentos</p>
+      </div>
+      </div>
+      <div className="containerInfoDepoimentos">
+        <div className="boxDepoimentos">
+          <div className="textDepoimentos">
+            <p>“A equipe do Fuja não só filma, mas vivencia
+                a questão ambiental. Trazem imagens não
+                só belas, mas emocionantes mesmo.”</p>
+            <br></br>
+            <h4>Clayton Lino</h4>
+            <p>Presidente da Reserva da Biosfera da Mata Atlântica</p>
+          </div>
+          <div className="pictureDepoimento1"></div>
+        </div>
+        <div className="boxDepoimentos">
+          <div className="textDepoimentos">
+            <p>“A live realizada com o Fuja foi linda. 
+                Muita gente assistiu e amou!”</p>
+                <br></br>
+                <h4>Minah Almeida </h4>
+            <p>Fundação Terra Mirim</p>
+          </div>
+          <div className="pictureDepoimento2"></div>
+        </div>
+      </div>
     </div>
     <Footer/>
     </div>
