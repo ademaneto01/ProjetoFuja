@@ -33,7 +33,7 @@ export default function Portfolio() {
               <div className="boxInternoVideoModal"> 
               <div id="videoModal1">
               <div className="btnPlayModal">
-              <div className="iconPlayModal"></div>
+              <div className="iconPlayModal" />
               </div>
               </div>
               <div className="textVideoModal">Apoio ao Movimento

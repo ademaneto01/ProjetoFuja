@@ -610,7 +610,7 @@ height: 115px;
 .boxTitleModal {
   display: flex;
   width: 100%;
-  padding: 1em;
+  padding: 1em 2em;
   justify-content: space-between;
 }
 .titleModal{
@@ -635,7 +635,7 @@ height: 115px;
 
   justify-content: space-between;
 
-  gap: 1em;
+  gap: 3em;
   padding: 2em 4em;
 }
 #videoModal1 {
@@ -727,7 +727,9 @@ height: 115px;
   cursor: pointer;
 }
 .iconPlayModal {
-  width: 12px;
-  height: 12px;
+  width: 1em;
+  height: 1em;
   background-image: url("../../../public/img/iconPlay.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
