@@ -99,7 +99,7 @@
 }
 .screamVideosFuja {
   display: flex;
-
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -150,12 +150,19 @@
 }
 .screamProducts {
   display: flex;
-
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
   height: 100vh;
   background-color: #ffffff;
+}
+.boxBtnContrate {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 120px;
 }
 .containerProducts {
   display: flex;
@@ -163,7 +170,7 @@
   flex-direction: column;
 
   justify-content: space-between;
-  height: 18em;
+  height: 21em;
   width: 60em;
 }
 .containerProducts h1 {
@@ -175,27 +182,44 @@
 
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-  height: 10em;
+  width: 60em;
+  height: 13em;
+
+}
+#boxProducts {
+  display: flex;
+ 
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+  width: 12em;
+  height: 11em;
 }
 .bolProdutcs {
+ 
   display: flex;
-  width: 8em;
-  height: 8em;
+  width: 7em;
+  height: 7em;
 
   border-radius: 50%;
   border: 1px solid black;
 }
-.boxProducts {
-  display: flex;
+.txtProduct {
+  width: 100%;
+  height: 2em;
+  
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
 
-  flex-direction: column;
+text-align: center;
 
-  justify-content: space-between;
-  align-items: center;
+color: #333333;
 
-  height: 10em;
 }
+
 .screamPortalAventuras {
   display: flex;
 
@@ -234,25 +258,81 @@
 }
 #btnPortalAventuras {
   all: unset;
+  
   display: flex;
 
   justify-content: center;
   align-items: center;
-
-  border: 1px solid #ffffff;
-
-  width: 8em;
-  height: 1em;
-
+  
   background-color: transparent;
-  padding: 1em;
-  font-size: 1.1em;
+ 
+  width: 142px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 32px;
+ 
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 600;
-
-  border-radius: 30px;
+  font-size: 16px;
+  
   color: #ffffff;
+  
   cursor: pointer;
 }
-#btnPortalAventuras:hover {
+#btnContrate {
+  all: unset;
+  
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  
+  background-color: transparent;
+ 
+  width: 142px;
+  height: 40px;
+  border: 1px solid #333333;
+  border-radius: 32px;
+ 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  
+  color: #333333;
+  
+  cursor: pointer;
+}
+#btnPortalAventuras:hover,
+#btnContrate:hover {
   background-color: #becc40;
+}
+#btnPortfolioHome {
+  all: unset;
+  
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  
+  background-color: transparent;
+ 
+  width: 248px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 32px;
+ 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  
+  color: #ffffff;
+  
+  cursor: pointer;
+}
+#btnPortfolioHome:hover {
+  background-color: #becc40;
+  color: #333333;
 }

@@ -110,6 +110,9 @@ start++
             </div>
           </div>
         </div>
+        <div className="boxBtnContrate">
+        <button id="btnPortfolioHome">Veja nosso portfólio completo</button>
+        </div>
       </div>
       <div className="screamProducts">
         <div className="containerProducts">
@@ -118,27 +121,41 @@ start++
             audiovisuais profissionais
           </h1>
           <div className="containerBolProducts">
-            <div className="boxProducts">
+            <div id="boxProducts">
               <div className="bolProdutcs"></div>
-              <h3>Drone</h3>
+              <div className="txtProduct">
+              fotos e vídeos
+                    em alta resolução
+                    </div>
             </div>
-            <div className="boxProducts">
+            <div id="boxProducts">
               <div className="bolProdutcs"></div>
-              <h3>Vídeo</h3>
+              <div className="txtProduct">
+                    tomadas aéreas com
+                    drone profissional
+                    </div>
             </div>
-            <div className="boxProducts">
+            <div id="boxProducts">
               <div className="bolProdutcs"></div>
-              <h3>Fotos</h3>
+              <div className="txtProduct">
+              Vídeo Clip
+              </div>
             </div>
-            <div className="boxProducts">
+            <div id="boxProducts">
               <div className="bolProdutcs"></div>
-              <h3>Produção</h3>
+              <div className="txtProduct">Produções 
+                  audiovisuais completas
+              </div>
             </div>
-            <div className="boxProducts">
+            <div id="boxProducts">
               <div className="bolProdutcs"></div>
-              <h3>Tanananan</h3>
+              <div className="txtProduct">Divulgação nas
+                  redes sociais</div>
             </div>
           </div>
+        </div>
+        <div className="boxBtnContrate">
+        <button id="btnContrate">Contrate o Fuja</button>
         </div>
       </div>
       <div className="screamPortalAventuras">
