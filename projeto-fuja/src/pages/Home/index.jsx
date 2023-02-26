@@ -1,29 +1,13 @@
 import "./styles.css";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import { useState, useEffect } from 'react';
 
+import { useNavigate } from "react-router-dom";
 
 
 function App() {
-
-const arrayImg = ["/img/img-carrosel-home/img1.svg", "/img/img-carrosel-home/img2.svg", "/img/img-carrosel-home/img3.svg"]
-const [imgCarrosel, setImgCarrosel] = useState()
-let start = 0;
-const addItem = () => {
+  const navigate = useNavigate();
   
-console.log(start)
-start++
-
-}
-
-
-// const removeItem = () => {
- 
-//   const endRange = Math.max(0, items.length - 1)
-//   setItems(items.slice(0, endRange))
-// }
-
   return (
     <div className="container">
       <Header />
@@ -58,9 +42,9 @@ start++
           <div class="boxImgCarrousel">
           <div className="infosImgCarrousel">
             
-            <img src={imgCarrosel} alt="img-carrosel"/>
+            
           </div>
-          <div class="boxBtnsCarrousel"><button class="btn-icon-right" ><img src="/img/icon.svg" alt="icon"/></button><button class="btn-icon-right" onClick={addItem}><img src="/img/icon.svg" alt="icon"/></button></div>
+          <div class="boxBtnsCarrousel"><button class="btn-icon-right" ><img src="/img/icon.svg" alt="icon"/></button><button class="btn-icon-right"><img src="/img/icon.svg" alt="icon"/></button></div>
           
           </div>
           
@@ -111,7 +95,7 @@ start++
           </div>
         </div>
         <div className="boxBtnContrate">
-        <button id="btnPortfolioHome">Veja nosso portfólio completo</button>
+        <button id="btnPortfolioHome" onClick={() => { navigate("/portfolio")}}>Veja nosso portfólio completo</button>
         </div>
       </div>
       <div className="screamProducts">
@@ -155,7 +139,7 @@ start++
           </div>
         </div>
         <div className="boxBtnContrate">
-        <button id="btnContrate">Contrate o Fuja</button>
+        <button id="btnContrate" onClick={() => {navigate("/contact")}}>Contrate o Fuja</button>
         </div>
       </div>
       <div className="screamPortalAventuras">
