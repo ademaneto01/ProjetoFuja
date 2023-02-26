@@ -151,7 +151,7 @@ function App() {
             São mais de 1700 passeios por todo o Brasil para você sair do
             convencional
           </p>
-          <a id="btnPortalAventuras" href="https://www.fuja.com.br/">
+          <a id="btnPortalAventuras" href="https://www.fuja.com.br">
             Conheça aqui
           </a>
         </div>

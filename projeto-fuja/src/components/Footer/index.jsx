@@ -1,5 +1,9 @@
 import './styles.css'
-const Footer = () => (
+import { useNavigate } from "react-router-dom";
+
+const Footer = () => {
+    const navigate = useNavigate()
+    return(
     <footer className='footer'>
         <div className='left-container'>
             <a href="/">
@@ -9,10 +13,10 @@ const Footer = () => (
         </div>
         <div className='right-container'>
             <nav>
-                <a href="/">Home</a>
-                <a href="/">historia do fuja</a>
-                <a href="/">Portifólio</a>
-                <a href="/">Portal de aventuras</a>
+                <a onClick={()=> {navigate("/")}}>Home</a>
+                <a onClick={()=> {navigate("/portfolio")}}>Portifólio</a>
+                <a href="https://www.fuja.com.br">Portal de aventuras</a>
+                <a onClick={()=> {navigate("/contact")}}>Contrate o fuja</a>
             </nav>
             <div className="social-media">
                 <p>Acompanhe a gente nas redes sociais</p>
@@ -28,6 +32,7 @@ const Footer = () => (
             </div>
         </div>
     </footer>
-)
+    );
+}
 
 export default Footer
