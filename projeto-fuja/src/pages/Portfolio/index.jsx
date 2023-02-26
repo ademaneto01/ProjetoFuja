@@ -32,7 +32,9 @@ export default function Portfolio() {
             <div className="boxVideosModal">
               <div className="boxInternoVideoModal"> 
               <div id="videoModal1">
-              <div className="btnPlayModal"></div>
+              <div className="btnPlayModal">
+              <div className="iconPlayModal"></div>
+              </div>
               </div>
               <div className="textVideoModal">Apoio ao Movimento
                         Grauça
@@ -40,19 +42,25 @@ export default function Portfolio() {
               </div>
               <div className="boxInternoVideoModal"> 
               <div id="videoModal2">
-                <div className="btnPlayModal"></div>
+                <div className="btnPlayModal">
+                  <div className="iconPlayModal"></div>
+                </div>
               </div>
               <div className="textVideoModal">Intervenção em uma praça de Uruçuca</div>
               </div>
               <div className="boxInternoVideoModal"> 
               <div id="videoModal3">
-              <div className="btnPlayModal"></div>
+              <div className="btnPlayModal">
+                <div className="iconPlayModal"></div>
+              </div>
               </div>
               <div className="textVideoModal">Conscientização ambiental</div>
               </div>
               <div className="boxInternoVideoModal"> 
               <div id="videoModal4">
-              <div className="btnPlayModal"></div>
+              <div className="btnPlayModal">
+              <div className="iconPlayModal"></div>
+              </div>
               </div>
               <div className="textVideoModal">Feira de sábado em Serra Grande</div>
               </div>

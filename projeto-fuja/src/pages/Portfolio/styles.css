@@ -720,5 +720,19 @@ height: 115px;
   height: 360px;
 }
 .btnPlayModal {
-  
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  border: 1px solid #333333;
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+}
+.iconPlayModal {
+  width: 12px;
+  height: 12px;
+  background-image: url("../../../public/img/iconPlay.svg");
 }
