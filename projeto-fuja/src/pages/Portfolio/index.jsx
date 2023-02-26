@@ -1,8 +1,70 @@
 import "./styles.css";
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import Modal from '@mui/material/Modal';
+import { useState} from 'react';
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
 export default function Portfolio() {
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
+
+  function BasicModal() {
+  
+    return (
+      <div>
+        <Modal
+          open={open}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box id="boxModal">
+            <div className="boxTitleModal">
+              <div className="titleModal">Serra Grande</div>
+              <div className="btnModal"  onClick={handleClose}></div>
+            </div>
+            <div className="boxVideosModal">
+              <div className="boxInternoVideoModal"> 
+              <div id="videoModal1">
+              <div className="btnPlayModal"></div>
+              </div>
+              <div className="textVideoModal">Apoio ao Movimento
+                        Grauça
+                </div>
+              </div>
+              <div className="boxInternoVideoModal"> 
+              <div id="videoModal2">
+                <div className="btnPlayModal"></div>
+              </div>
+              <div className="textVideoModal">Intervenção em uma praça de Uruçuca</div>
+              </div>
+              <div className="boxInternoVideoModal"> 
+              <div id="videoModal3">
+              <div className="btnPlayModal"></div>
+              </div>
+              <div className="textVideoModal">Conscientização ambiental</div>
+              </div>
+              <div className="boxInternoVideoModal"> 
+              <div id="videoModal4">
+              <div className="btnPlayModal"></div>
+              </div>
+              <div className="textVideoModal">Feira de sábado em Serra Grande</div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
+      </div>
+    );
+  }
+
+
+
   return (
    
     <div className="containerPortfolioFull">
@@ -81,7 +143,7 @@ export default function Portfolio() {
             Vídeos produzidos na região de Serra Grande a fim de divulgar projetos que acreditamos e pautas que são valores do Fuja
           </div>
           <div className="boxBtnVideo">
-            <button id="btn2">Assistir vídeos</button>
+            <button id="btn2" onClick={handleOpen}>Assistir vídeos</button>
           </div>
         </div>
       </div>
@@ -199,6 +261,10 @@ export default function Portfolio() {
         </div>
         </div>  
     </div>
+    <div id="modalPortfolio">
+      <div className="boxModal"></div>
+    </div>
+    <BasicModal/>
     <Footer/>
     </div>
      

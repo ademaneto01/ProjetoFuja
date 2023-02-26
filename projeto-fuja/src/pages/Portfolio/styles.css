@@ -591,3 +591,134 @@ height: 115px;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/bracell_logo_FA.svg);
 }
+
+#boxModal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+  height: 80vh;
+  background-color: #FFFFFF;
+  box-shadow: 0px 3px 17px rgba(33, 33, 33, 0.25);
+  border-radius: 8px;
+  
+}
+.boxTitleModal {
+  display: flex;
+  width: 100%;
+  padding-right: 27px;
+  padding-top: 27px;
+  padding-left: 27px;
+  justify-content: space-between;
+}
+.titleModal{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  
+  color: #333333;
+}
+.btnModal {
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../../public/img/closeModal.svg");
+  cursor: pointer;
+}
+
+.boxVideosModal {
+  display: flex;
+
+  justify-content: space-between;
+
+  width: 960px;
+  height: 390px;
+  margin-bottom: 27px;
+}
+#videoModal1 {
+  display: flex;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../../public/img/rec052.svg");
+
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 310px;
+}
+#videoModal2 {
+  display: flex;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../../public/img/image5.svg");
+
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 310px;
+}
+#videoModal3 {
+  display: flex;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../../public/img/image6.svg");
+
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 310px;
+}
+#videoModal4 {
+  display: flex;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../../public/img/image7.svg");
+
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 310px;
+}
+.textVideoModal {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: end;
+  align-items: center;
+  
+  width: 200px;
+  height: 50px;
+ 
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+
+  color: #333333;
+}
+.boxInternoVideoModal{
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+  width: 200px;
+  height: 360px;
+}
+.btnPlayModal {
+  
+}
