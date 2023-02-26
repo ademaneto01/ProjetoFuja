@@ -595,15 +595,13 @@ height: 115px;
 #boxModal {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
 
+  padding:  1em 0;
   position: absolute;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80vw;
-  height: 80vh;
   background-color: #FFFFFF;
   box-shadow: 0px 3px 17px rgba(33, 33, 33, 0.25);
   border-radius: 8px;
@@ -612,9 +610,7 @@ height: 115px;
 .boxTitleModal {
   display: flex;
   width: 100%;
-  padding-right: 27px;
-  padding-top: 27px;
-  padding-left: 27px;
+  padding: 1em;
   justify-content: space-between;
 }
 .titleModal{
@@ -639,9 +635,8 @@ height: 115px;
 
   justify-content: space-between;
 
-  width: 960px;
-  height: 390px;
-  margin-bottom: 27px;
+  gap: 1em;
+  padding: 2em 4em;
 }
 #videoModal1 {
   display: flex;
