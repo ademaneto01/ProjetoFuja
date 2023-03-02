@@ -1,35 +1,28 @@
 import "./styles.css";
 import { useNavigate } from "react-router-dom";
+
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
+
 const Header = () => {
-  let VerificandoModal = "";
   const navigate = useNavigate();
   const [open, setOpen] = React.useState(false);
-  let style = {}
+  
   const handleOpen = (() => {
     setOpen(true)
-    VerificandoModal = true
+
   });
 
   const handleClose = (() => {
     setOpen(false)
-    VerificandoModal = false
+    
   });
-  if(VerificandoModal){
-    style={
-      position: "absolute",
-    }
-  } else {
-    style={position: "fixed",}
-  }
+
 
 
   function BasicModal() {
-  
 
   return (
     <div>
@@ -64,7 +57,7 @@ const Header = () => {
 
   return(
     <>
-  <header className="header" sx={style} >
+  <header className="header" style={{position: open ? 'absolute' : 'fixed'}} >
     <nav onClick={handleOpen}>
      <img src="/img/menu.png" alt="simbolo de menu" className="menu-icon" />
     </nav>
