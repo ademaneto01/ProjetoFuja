@@ -2,6 +2,7 @@
   background-color: gray;
   height: auto;
 }
+
 .contactPage {
   display: flex;
 
@@ -13,6 +14,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .contactPageInfo {
   display: flex;
 
@@ -22,16 +24,17 @@
   align-items: center;
 
 }
+
 .contactPageInfo h1 {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 800;
-  font-size: 80px;
-  line-height: 98px;
+  font-size: 8rem;
+  line-height: 9.8rem;
   color: #ffffff;
 }
 
-.contactList{
+.contactList {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,36 +43,38 @@
   height: 30vh;
 
 }
-.contactList h2{
+
+.contactList h2 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
   text-align: center;
-  letter-spacing: -0.231818px;
 }
+
 .contactList a {
   all: unset;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 2rem;
   cursor: pointer;
 }
-.contactSocialMedia{
+
+.contactSocialMedia {
   display: flex;
   flex-direction: column;
 }
 
 .contactSocialMedia p {
-  font-size: 24px;
-  margin-bottom: 1em;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
 }
-.contactSocialMediaIcons{
+
+.contactSocialMediaIcons {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1em;
+  gap: 1.6rem;
 }
-

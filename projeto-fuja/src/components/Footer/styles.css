@@ -1,6 +1,6 @@
 .footer {
   background-color: #333;
-  padding: 1em;
+  padding: 1.6rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,28 +15,31 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border-right: solid 1px #666;
-  height: 10em;
+  border-right: solid 0.1rem #666;
+  height: 16rem;
   width: 100%;
   padding: 1em;
 }
+
 .logo {
-  margin-right: 4em;
+  margin-right: 6.4rem;
   border-radius: 50%;
   cursor: pointer;
   background-color: #fff;
-  height: 7em;
+  height: 11.2rem;
 }
+
 .left-container p {
-  width:282px;
-  height: 126px;
+  width: 28.2rem;
+  height: 12.6rem;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 3rem;
 
   color: #FFFFFF;
 }
+
 .right-container {
   display: flex;
   align-items: center;
@@ -53,7 +56,7 @@
 }
 
 .footer nav a {
-  margin-bottom: 1em;
+  margin-bottom: 1.6rem;
   text-decoration: underline;
 }
 
@@ -69,17 +72,19 @@ nav a:hover {
 
 .social-media p {
   font-weight: 700;
-  margin-bottom: 2em;
+  margin-bottom: 3.2rem;
 }
 
 .social-media-icons {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 2em;
+  margin-bottom: 3.2rem;
 }
+
 .social-media-icons a {
   cursor: pointer;
 }
+
 .contact a {
   cursor: pointer;
 }
