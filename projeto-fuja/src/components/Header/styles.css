@@ -1,6 +1,4 @@
-
 .header {
-  
   width: 100vw;
   height: 84px;
   background-color: rgba(255, 255, 255, 0.7);
@@ -14,25 +12,22 @@
 .header button {
   all: unset;
   background-color: transparent;
- 
+
   width: 142px;
   height: 40px;
   border: 1px solid #333333;
   border-radius: 32px;
- 
-  font-family: 'Roboto';
+
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
-  
+
   text-align: center;
-  
-  
+
   color: #333333;
-  
- 
- 
+
   cursor: pointer;
 }
 .logo-icon {
@@ -69,14 +64,15 @@
   top: 50%;
   left: 15%;
   transform: translate(-50%, -50%);
-  width: 30em;
+  width: 50em;
   height: 100vh;
   display: flex;
+
+  padding-left: 16em;
 
   flex-direction: column;
   justify-content: space-between;
   background-color: #333333;
- 
 }
 .btnCloseModalHeader {
   display: flex;
@@ -84,7 +80,7 @@
   justify-content: center;
   height: 3.5em;
   width: 3.5em;
- 
+
   background-color: transparent;
   cursor: pointer;
   padding: 1em;
@@ -122,19 +118,19 @@
   width: 30em;
 }
 .titleModalHeader {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
 
-  cursor: pointer ;
+  cursor: pointer;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .logoHeader {
   margin-top: 7em;
   margin-left: 8.6em;
- 
+
   width: 7.6em;
   height: 7.6em;
   background-image: url("../../../public/img/sitefuja1.svg");
@@ -146,13 +142,13 @@
 .textModalFooter {
   width: 7.6em;
 
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
 
-margin-top: 5em;
-margin-left: 1em;
+  margin-top: 5em;
+  margin-left: 1em;
 
-color: #FFFFFF;
+  color: #ffffff;
 }

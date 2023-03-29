@@ -4,17 +4,16 @@ import Footer from "../../components/Footer";
 
 import { useNavigate } from "react-router-dom";
 
-
 function App() {
   const navigate = useNavigate();
-  
+
   return (
     <div className="container">
       <Header />
       <div className="screamVideo">
         <video
           id="mainVideo"
-          src="/img/teste.mp4"
+          src="/img/video-fuja-home.mp4"
           width="100%"
           autoPlay
           muted
@@ -39,22 +38,24 @@ function App() {
               liberdade.
             </h1>
             <p>
-            Somos uma equipe de produção audiovisual que aborda e comunica
-             de forma inovadora conteúdos relacionados ao meio ambiente, 
-             turismo e cultura. 
-            <br />
-
-            Na produção audiovisual, trabalhamos com todo o processo: 
-            desde a roteirização, pré-produção e planejamento do conteúdo, 
-            além das gravações, direção, edição e pós-produção.
-
+              Somos uma equipe de produção audiovisual que aborda e comunica de
+              forma inovadora conteúdos relacionados ao meio ambiente, turismo e
+              cultura.
+              <br />
+              Na produção audiovisual, trabalhamos com todo o processo: desde a
+              roteirização, pré-produção e planejamento do conteúdo, além das
+              gravações, direção, edição e pós-produção.
             </p>
           </div>
           <div class="boxImgCarrousel">
             <div className="infosImgCarrousel" />
             <div class="boxBtnsCarrousel">
-              <button class="btn-icon-right" ><img src="/img/icon.svg" alt="icon"/></button>
-              <button class="btn-icon-right"><img src="/img/icon.svg" alt="icon"/></button>
+              <button class="btn-icon-right">
+                <img src="/img/icon.svg" alt="icon" />
+              </button>
+              <button class="btn-icon-right">
+                <img src="/img/icon.svg" alt="icon" />
+              </button>
             </div>
           </div>
         </div>
@@ -104,7 +105,14 @@ function App() {
           </div>
         </div>
         <div className="boxBtnContrate">
-        <button id="btnPortfolioHome" onClick={() => { navigate("/portfolio")}}>Veja nosso portfólio completo</button>
+          <button
+            id="btnPortfolioHome"
+            onClick={() => {
+              navigate("/portfolio");
+            }}
+          >
+            Veja nosso portfólio completo
+          </button>
         </div>
       </div>
       <div className="screamProducts">
@@ -116,39 +124,37 @@ function App() {
           <div className="containerBolProducts">
             <div id="boxProducts">
               <div className="bolProdutcs"></div>
-              <div className="txtProduct">
-              fotos e vídeos
-                    em alta resolução
-                    </div>
+              <div className="txtProduct">fotos e vídeos em alta resolução</div>
             </div>
             <div id="boxProducts">
               <div className="bolProdutcs"></div>
               <div className="txtProduct">
-                    tomadas aéreas com
-                    drone profissional
-                    </div>
-            </div>
-            <div id="boxProducts">
-              <div className="bolProdutcs"></div>
-              <div className="txtProduct">
-              Vídeo Clip
+                tomadas aéreas com drone profissional
               </div>
             </div>
             <div id="boxProducts">
               <div className="bolProdutcs"></div>
-              <div className="txtProduct">Produções 
-                  audiovisuais completas
-              </div>
+              <div className="txtProduct">Vídeo Clip</div>
             </div>
             <div id="boxProducts">
               <div className="bolProdutcs"></div>
-              <div className="txtProduct">Divulgação nas
-                  redes sociais</div>
+              <div className="txtProduct">Produções audiovisuais completas</div>
+            </div>
+            <div id="boxProducts">
+              <div className="bolProdutcs"></div>
+              <div className="txtProduct">Divulgação nas redes sociais</div>
             </div>
           </div>
         </div>
         <div className="boxBtnContrate">
-        <button id="btnContrate" onClick={() => {navigate("/contact")}}>Contrate o Fuja</button>
+          <button
+            id="btnContrate"
+            onClick={() => {
+              navigate("/contact");
+            }}
+          >
+            Contrate o Fuja
+          </button>
         </div>
       </div>
       <div className="screamPortalAventuras">
