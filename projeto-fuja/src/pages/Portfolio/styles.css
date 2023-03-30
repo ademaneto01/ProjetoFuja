@@ -2,21 +2,24 @@
   background-color: #333333;
   height: auto;
 }
+
 .containerPortolio {
-  display: flex; 
+  display: flex;
 
   flex-direction: column;
 
- 
+
   height: 100vh;
 
 }
+
 .boxImgPortolio {
-height: 50%;
-background-size: cover;
-background-repeat: no-repeat;
-background-image: url(../../../public/img/capaPortfolio.png);
+  height: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/img/capaPortfolio.png);
 }
+
 .boxInfosPortfolioInicial {
   display: flex;
 
@@ -28,147 +31,157 @@ background-image: url(../../../public/img/capaPortfolio.png);
   height: 50%;
   background-color: #FFFFFF;
 }
+
 .boxTextIni {
   display: flex;
 
   flex-direction: column;
-  
-  justify-content:space-between;
-  
-  width: 1128px;
-  height: 163px;
-}
-.boxTxt{
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 26px;
-line-height: 34px;
 
-color: #333333;
+  justify-content: space-between;
+
+  width: 112.8rem;
+  height: 16.3rem;
 }
+
+.boxTxt {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.6rem;
+  line-height: 3.4rem;
+
+  color: #333333;
+}
+
 .boxTitle {
   display: flex;
 
   align-items: center;
 
-  background-color:  #62CBE9 ;
+  background-color: #62CBE9;
 
-  height: 22px;
-  width: 383px;
+  height: 2.2rem;
+  width: 38.3rem;
 
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 800;
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 5rem;
+  line-height: 6rem;
 
   color: #333333;
 }
-.txtVideoPortfolio {
-  height: 183px;
 
-  padding-left: 24px;
+.txtVideoPortfolio {
+  height: 18.3rem;
+
+  padding-left: 2.4rem;
 
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 26px;
-line-height: 34px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.6rem;
+  line-height: 3.4rem;
 }
 
 .boxVideosPortfolio {
   display: flex;
 
   flex-direction: column;
-  
-  gap: 83px;
+
+  gap: 8.3rem;
 
   align-items: center;
   justify-content: space-around;
 
   background-color: #333333;
-  padding-bottom: 83px;
-  
+  padding-bottom: 8.3rem;
+
 
   height: auto;
 }
+
 .boxTitleVideos {
 
-  width: 1128px;
+  width: 112.8rem;
 
-  padding-top: 42px;
-  margin-bottom:  -40px;
+  padding-top: 4.2rem;
+  margin-bottom: -4rem;
 
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 26px;
-  line-height: 34px;
+  font-size: 2.6rem;
+  line-height: 3.4rem;
 
   color: #FFFFFF;
 }
 
-.ContainerMoviePortfolio{
+.ContainerMoviePortfolio {
   display: flex;
 
-  width: 1128px;
-  height: 305.06px;
+  width: 112.8rem;
+  height: 30.5rem;
 
   background-color: #FFFFFF;
 }
+
 .boxVideoPortfolio {
-  width: 552px;
+  width: 55.2rem;
 }
+
 #boxInfosVideoPortfolio {
   display: flex;
-  width: 576px;
+  width: 57.6rem;
   height: 100%;
   background-color: #333333;
   flex-direction: column;
 
 }
+
 .txtVideoPortfolio {
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 28px;
-line-height: 44px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.8rem;
+  line-height: 4.4rem;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 
 }
 
-#boxVideoPortfolioOne{
+#boxVideoPortfolioOne {
   background-image: url(../../../public/img/rec01.svg);
 
-  width: 552px;
+  width: 55.2re, ;
 
   background-repeat: no-repeat;
   background-position: cover;
 }
-#boxVideoPortfolioTwo{
+
+#boxVideoPortfolioTwo {
   background-image: url(../../../public/img/rec2.svg);
- 
-  width: 552px;
+
+  width: 55.2rem;
 
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#boxVideoPortfolioTree{
+#boxVideoPortfolioTree {
   background-image: url(../../../public/img/rec3.svg);
 
-  width: 552px;
+  width: 55.2rem;
 
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 #boxVideoPortfolioFour {
   background-image: url(../../../public/img/rec04.svg);
-  
-  width: 552px;
-  
+
+  width: 55.2rem;
+
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -176,20 +189,22 @@ color: #FFFFFF;
 #boxVideoPortfolioFive {
   background-image: url(../../../public/img/rec05.svg);
 
-  width: 552px;
+  width: 55.2rem;
 
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .boxBtnVideo {
   display: flex;
 
   align-items: center;
-  height: 121px;  
+  height: 12.1rem;
 
-  padding-left: 24px;
+  padding-left: 2.4rem;
 
 }
+
 #btn1 {
   all: unset;
 
@@ -202,11 +217,11 @@ color: #FFFFFF;
 
   cursor: pointer;
 
-  border: 1px solid  #FFFFFF;
+  border: 0.1rem solid #FFFFFF;
 
-  height: 40px;
-width: 166px;
-border-radius: 32px;
+  height: 4rem;
+  width: 16.6rem;
+  border-radius: 3.2rem;
 
 }
 
@@ -214,6 +229,7 @@ border-radius: 32px;
   background-color: #62CBE9;
   color: #333333;
 }
+
 #btn2 {
   all: unset;
 
@@ -224,70 +240,76 @@ border-radius: 32px;
 
   color: #FFFFFF;
 
-  border: 1px solid  #FFFFFF;
+  border: 0.1rem solid #FFFFFF;
 
   cursor: pointer;
 
-  height: 40px;
-    width: 130px;
+  height: 4rem;
+  width: 13rem;
 
-  border-radius: 32px;
+  border-radius: 3.2rem;
 }
 
 #btn2:hover {
   background-color: #62CBE9;
   color: #333333;
 }
+
 .containerTime {
   display: flex;
 
   justify-content: space-evenly;
   align-items: center;
-  
+
   flex-direction: column;
 
-  background-color:  #FFFFFF;
+  background-color: #FFFFFF;
   height: 120vh;
 }
-.ContainerTitleTime{
-  width: 1128px;
+
+.ContainerTitleTime {
+  width: 112.8rem;
 }
-.boxTitleTime{
+
+.boxTitleTime {
   display: flex;
 
   align-items: center;
 
-  background-color:  #62CBE9 ;
+  background-color: #62CBE9;
 
-  height: 22px;
-  width: 330px;
+  height: 2.2rem;
+  width: 33rem;
 
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 800;
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 5rem;
+  line-height: 6rem;
 
   color: #333333;
 }
-.boxPicturesTime{
+
+.boxPicturesTime {
   display: flex;
   justify-content: space-around;
-  height: 463px;
-  width: 1128px;
+  height: 46.3rem;
+  width: 112.8rem;
 }
+
 .pictureTimeMi {
-  width: 264px;
-  height: 264px;
+  width: 26.4rem;
+  height: 26.4rem;
 
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/equipe03.svg);
-  
+
   border-radius: 50%;
-  border: 4px solid #62CBE9;
+  border: 0.4rem solid #62CBE9;
 }
-.boxPicture{
+
+.boxPicture {
   display: flex;
 
   flex-direction: column;
@@ -295,55 +317,60 @@ border-radius: 32px;
 
   justify-content: space-evenly;
 }
+
 .pictureTimePrimo {
-  width: 264px;
-  height: 264px;
+  width: 26.4rem;
+  height: 26.4rem;
 
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/equipe01.svg);
-  
+
   border-radius: 50%;
-  border: 4px solid #62CBE9;
+  border: 0.4rem solid #62CBE9;
 }
-.pictureTimeMoreno{
-  width: 264px;
-  height: 264px;
+
+.pictureTimeMoreno {
+  width: 26.4rem;
+  height: 26.4rem;
 
 
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/equipe2.svg);
-  
+
   border-radius: 50%;
-  border: 4px solid #62CBE9;
+  border: 0.4rem solid #62CBE9;
 }
+
 .nameTime {
-  width: 182px;
-  height: 34px;
+  width: 18.2rem;
+  height: 3.4rem;
 
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 26px;
+  font-size: 2.6rem;
 
   text-align: center;
   color: #333333;
 }
+
 .textTime {
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.4rem;
 
-width: 360px;
-height: 96px;
+  width: 36rem;
+  height: 9.6rem;
 
-text-align: center;
+  text-align: center;
 
-color: #333333;
+  color: #333333;
 }
+
 .containerDepoimentos {
   display: flex;
 
@@ -353,106 +380,115 @@ color: #333333;
   align-items: center;
 
   flex-direction: column;
-  
+
   background-color: #333333;
 }
-.ContainerTitleDepoimento{
+
+.ContainerTitleDepoimento {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 800;
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 5rem;
+  line-height: 6rem;
 
-  width: 1128px;
+  width: 112.8rem;
 
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
-.containerInfoDepoimentos{
+
+.containerInfoDepoimentos {
   display: flex;
 
   justify-content: space-between;
-  width: 1128px;
-  height: 425px;
+  width: 112.8rem;
+  height: 42.5rem;
 }
+
 .boxDepoimentos {
   display: flex;
 
   justify-content: space-around;
 
   flex-direction: column;
-  width: 552px;
-height: 305px;
+  width: 55.2rem;
+  height: 30.5rem;
 
-padding-left: 41px;
+  padding-left: 4.1rem;
 
-background: #F4F4F4;
-border-radius: 10px;
+  background: #F4F4F4;
+  border-radius: 1rem;
 
 }
+
 .boxNomeDepoimento {
   display: flex;
-  
+
   flex-direction: column;
 
   justify-content: space-around;
-  width: 496px;
-  height: 70px;
+  width: 49.6rem;
+  height: 7rem;
 
-  
+
 }
-.nomeDepoimento{
+
+.nomeDepoimento {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
- 
+  font-size: 2.4rem;
+
   color: #333333;
 }
-#descriDepoimento{
+
+#descriDepoimento {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 34px;
+  font-size: 2rem;
+  line-height: 3.4rem;
 
   color: #333333;
 }
+
 #textDepoimentos {
-  width: 473px;
-height: 85px;
+  width: 47.3rem;
+  height: 8.5rem;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
 
-color: #333333;
+  color: #333333;
 }
 
-#pictureDepoimento1{
-  
+#pictureDepoimento1 {
+
   position: absolute;
 
-  margin-top: 335px;
-  margin-left: 180px;
+  margin-top: 33.5rem;
+  margin-left: 18rem;
   background-image: url(../../../public/img/Ellipse14.svg);
 
-  
-  width: 120px;
-  height: 120px;
+
+  width: 12rem;
+  height: 12rem;
 }
+
 #pictureDepoimento2 {
-    
+
   position: absolute;
 
-  margin-top: 335px;
-  margin-left: 180px;
+  margin-top: 33.5rem;
+  margin-left: 18rem;
   background-image: url(../../../public/img/Ellipse13.svg);
 
-  
-  width: 120px;
-  height: 120px;
+
+  width: 12rem;
+  height: 12rem;
 }
+
 .containerParcerias {
   display: flex;
 
@@ -461,132 +497,149 @@ color: #333333;
   height: 80vh;
   background-color: #FFFFFF;
 }
+
 .boxImgParcerias {
   display: flex;
 
   flex-direction: column;
 
   justify-content: space-between;
-  width: 1128px;
-  height: 320px;
+  width: 112.8rem;
+  height: 32rem;
 }
-.ContainerTitleParcerias{
-  width: 1128px;
+
+.ContainerTitleParcerias {
+  width: 112.8rem;
 }
-.boxTitleParcerias{
+
+.boxTitleParcerias {
   display: flex;
 
   align-items: center;
 
-  background-color:  #62CBE9 ;
+  background-color: #62CBE9;
 
-  width: 464px;
-  height: 22px;
+  width: 46.4rem;
+  height: 2.2rem;
 
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 800;
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 5rem;
+  line-height: 6rem;
 
   color: #333333;
 }
+
 .imgsParcerias1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1126px;
-  height: 115px;
+  width: 112.6rem;
+  height: 11.5rem;
 }
-.imgTop1{
-  width: 117px;
-  height: 92px;
+
+.imgTop1 {
+  width: 11.7rem;
+  height: 9.2rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/ParquedasDunas.svg);
 }
-.imgTop2{
-  width: 114px;
-  height: 115px;
+
+.imgTop2 {
+  width: 11.4rem;
+  height: 11.5rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/BaleiaJubarte.svg);
 }
-.imgTop3{
-  width: 138px;
-  height: 115px;
+
+.imgTop3 {
+  width: 13.8rem;
+  height: 11.5rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/Klaus.svg);
 }
-.imgTop4{
-  width: 89px;
-  height: 115px;
+
+.imgTop4 {
+  width: 8.9rem;
+  height: 11.5rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/ECOA-removebg-preview1.svg);
 }
-.imgTop5{
-  width: 123px;
-  height: 115px;
+
+.imgTop5 {
+  width: 12.3rem;
+  height: 11.5rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/Tamar.svg);
 }
-.imgTop6{
-  width: 105px;
-height: 115px;
+
+.imgTop6 {
+  width: 10.5rem;
+  height: 11.5rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/Sapiranga.svg);
 }
-.imgTop7{
-  width: 116px;
-  height: 115px;
-  
+
+.imgTop7 {
+  width: 11.6rem;
+  height: 11.5rem;
+
   background-size: cover;
   background-repeat: no-repeat;
 
   background-image: url(../../../public/img/TerraMirim.svg);
 }
+
 .imgBottom1 {
-  width: 169px;
-  height: 46px;
+  width: 16.9rem;
+  height: 4.6rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/globo.svg);
 }
+
 .imgBottom2 {
-  width: 117px;
-  height: 57px;
+  width: 11.7rem;
+  height: 5.7rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/RPPNLontra.svg);
 }
+
 .imgBottom3 {
-  width: 135px;
-  height: 92px;
+  width: 13.5rem;
+  height: 9.2rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/RBMATransparente.svg);
 }
+
 .imgBottom4 {
-  width: 161px;
-  height: 46px;
+  width: 16.1rem;
+  height: 4.6rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/logo_final_taboa.svg);
 }
+
 .imgBottom5 {
-  width: 112px;
-  height: 57px;
+  width: 11.2rem;
+  height: 5.7rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/ParquedaMAta.svg);
 }
+
 .imgBottom6 {
-  width: 154px;
-  height: 35px;
+  width: 15.4rem;
+  height: 3.5rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/bracell_logo_FA.svg);
@@ -597,33 +650,36 @@ height: 115px;
   flex-direction: column;
   align-items: center;
 
-  padding:  1em 0;
+  padding: 1.6rem 0;
   position: absolute;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #FFFFFF;
-  box-shadow: 0px 3px 17px rgba(33, 33, 33, 0.25);
-  border-radius: 8px;
-  
+  box-shadow: 0rem 0.3rem 1.7rem rgba(33, 33, 33, 0.25);
+  border-radius: 0.8rem;
+
 }
+
 .boxTitleModal {
   display: flex;
   width: 100%;
-  padding: 1em 2em;
+  padding: 1.6rem 32rem;
   justify-content: space-between;
 }
-.titleModal{
+
+.titleModal {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  
+  font-size: 2.4rem;
+
   color: #333333;
 }
+
 .btnModal {
-  width: 16px;
-  height: 16px;
+  width: 1.6rem;
+  height: 1.6rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../../../public/img/closeModal.svg");
@@ -635,9 +691,10 @@ height: 115px;
 
   justify-content: space-between;
 
-  gap: 3em;
-  padding: 2em 4em;
+  gap: 0.3rem;
+  padding: 0.2rem 0.4rem;
 }
+
 #videoModal1 {
   display: flex;
 
@@ -647,9 +704,10 @@ height: 115px;
 
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 310px;
+  width: 20rem;
+  height: 31rem;
 }
+
 #videoModal2 {
   display: flex;
 
@@ -659,9 +717,10 @@ height: 115px;
 
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 310px;
+  width: 20rem;
+  height: 31rem;
 }
+
 #videoModal3 {
   display: flex;
 
@@ -671,9 +730,10 @@ height: 115px;
 
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 310px;
+  width: 20rem;
+  height: 31rem;
 }
+
 #videoModal4 {
   display: flex;
 
@@ -683,9 +743,10 @@ height: 115px;
 
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 310px;
+  width: 20rem;
+  height: 31rem;
 }
+
 .textVideoModal {
   display: flex;
 
@@ -693,27 +754,29 @@ height: 115px;
 
   justify-content: end;
   align-items: center;
-  
-  width: 200px;
-  height: 50px;
- 
+
+  width: 20rem;
+  height: 5rem;
+
 
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.8rem;
 
   color: #333333;
 }
-.boxInternoVideoModal{
+
+.boxInternoVideoModal {
   display: flex;
 
   flex-direction: column;
 
   justify-content: space-between;
-  width: 200px;
-  height: 360px;
+  width: 20rem;
+  height: 36rem;
 }
+
 .btnPlayModal {
   display: flex;
 
@@ -721,14 +784,15 @@ height: 115px;
   align-items: center;
   background-color: #FFFFFF;
   border-radius: 50%;
-  border: 1px solid #333333;
-  width: 56px;
-  height: 56px;
+  border: 0.1rem solid #333333;
+  width: 5.6rem;
+  height: 5.6rem;
   cursor: pointer;
 }
+
 .iconPlayModal {
-  width: 1em;
-  height: 1em;
+  width: 1.6rem;
+  height: 1.6rem;
   background-image: url("../../../public/img/iconPlay.svg");
   background-repeat: no-repeat;
   background-position: center;

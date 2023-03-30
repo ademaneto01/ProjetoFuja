@@ -37,15 +37,19 @@ function App() {
               O Fuja é um estilo de vida.<br></br>Uma inspiração.<br></br> É
               liberdade.
             </h1>
-            <p>
-              Somos uma equipe de produção audiovisual que aborda e comunica de
-              forma inovadora conteúdos relacionados ao meio ambiente, turismo e
-              cultura.
-              <br />
-              Na produção audiovisual, trabalhamos com todo o processo: desde a
-              roteirização, pré-produção e planejamento do conteúdo, além das
-              gravações, direção, edição e pós-produção.
-            </p>
+            <div className="descriptionCarrousel">
+              <p>
+                Somos uma equipe de produção audiovisual que aborda e comunica
+                de forma inovadora conteúdos relacionados ao meio ambiente,
+                turismo e cultura.
+              </p>
+
+              <p>
+                Na produção audiovisual, trabalhamos com todo o processo: desde
+                a roteirização, pré-produção e planejamento do conteúdo, além
+                das gravações, direção, edição e pós-produção.
+              </p>
+            </div>
           </div>
           <div class="boxImgCarrousel">
             <div className="infosImgCarrousel" />
