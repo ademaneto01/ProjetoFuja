@@ -2,10 +2,10 @@
   width: 100vw;
   height: 8.4rem;
   background-color: rgba(255, 255, 255, 0.7);
-  padding: 1.6rem;
+  padding: 1.6rem 11.9rem;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   z-index: 1001;
 }
 
@@ -70,7 +70,7 @@
   height: 100vh;
   display: flex;
 
-  padding-left: 25.6rem;
+  padding-left: 11.9rem;
 
   flex-direction: column;
   justify-content: space-between;
@@ -87,7 +87,7 @@
   background-color: transparent;
   cursor: pointer;
   padding: 1.6rem;
-  border: solid 1.6rem #ffff;
+  border: solid 0.1rem #ffff;
   border-radius: 50%;
   color: #ffff;
 }

@@ -51,13 +51,13 @@ function App() {
               </p>
             </div>
           </div>
-          <div class="boxImgCarrousel">
+          <div className="boxImgCarrousel">
             <div className="infosImgCarrousel" />
-            <div class="boxBtnsCarrousel">
-              <button class="btn-icon-right">
+            <div className="boxBtnsCarrousel">
+              <button className="btn-icon-right">
                 <img src="/img/icon.svg" alt="icon" />
               </button>
-              <button class="btn-icon-right">
+              <button className="btn-icon-right">
                 <img src="/img/icon.svg" alt="icon" />
               </button>
             </div>
@@ -81,9 +81,9 @@ function App() {
                 id="frameVideo"
                 src="https://www.youtube.com/embed/5qNuWjvGkqE"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
             <div className="video">
@@ -91,9 +91,9 @@ function App() {
                 id="frameVideo"
                 src="https://www.youtube.com/embed/pQhf-aswL40"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
             <div className="video">
@@ -101,9 +101,9 @@ function App() {
                 id="frameVideo"
                 src="https://www.youtube.com/embed/j6jLser3orY"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow=" clipboard-write; encrypted-media; gyroscope; picture-in-picture;  web-share"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
           </div>
