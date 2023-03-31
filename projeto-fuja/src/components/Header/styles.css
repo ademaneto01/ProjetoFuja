@@ -54,10 +54,18 @@
   width: 1.6rem;
 }
 
-.header nav:hover,
-.header button:hover,
-.logo-icon:hover {
+.buttonsHome, .buttonsPortfolio {
+  transition: 0.3s;
+}
+
+.buttonsHome:hover {
+  transition: 0.3s;
   background-color: #becc40;
+}
+
+.buttonsPortfolio:hover {
+  transition: 0.3s;
+  background-color: #62CBE9;
 }
 
 #modalHeader {
