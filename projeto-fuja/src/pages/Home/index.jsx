@@ -33,10 +33,18 @@ function App() {
       <div className="containerCarrousel">
         <div className="infosCarrousel">
           <div className="textCarrousel">
-            <h1>
-              O Fuja é um estilo de vida.<br></br>Uma inspiração.<br></br> É
-              liberdade.
-            </h1>
+            <div className="headerCarrousel">
+              <div className="">
+                <p>O Fuja é um estilo de vida.</p>
+              </div>
+              <div className="headerCarrouselLine2">
+                <p>Uma inspiração.</p>
+              </div>
+              <div className="headerCarrouselLine3">
+                <p>É liberdade.</p>
+              </div>
+            </div>
+
             <div className="descriptionCarrousel">
               <p>
                 Somos uma equipe de produção audiovisual que aborda e comunica
@@ -121,10 +129,15 @@ function App() {
       </div>
       <div className="screamProducts">
         <div className="containerProducts">
-          <h1>
-            Deixe o Fuja destacar o seu projeto através de<br></br> produções
-            audiovisuais profissionais
-          </h1>
+          <div className="headerProducts">
+            <div>
+              <p>Deixe o Fuja destacar o seu projeto através de</p>
+            </div>
+            <div>
+              <p>produções audiovisuais profissionais</p>
+            </div>
+          </div>
+
           <div className="containerBolProducts">
             <div id="boxProducts">
               <div className="bolProdutcs"></div>

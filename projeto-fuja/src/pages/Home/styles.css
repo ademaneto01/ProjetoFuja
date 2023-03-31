@@ -1,7 +1,3 @@
-* {
-  max-width: 100vw;
-}
-
 .container {
   background-color: gray;
   height: auto;
@@ -31,6 +27,7 @@
 #boxTextVideoPrincipal h1 {
   text-align: center;
   color: #ffffff;
+
 
   font-size: 5rem;
   font-weight: 700;
@@ -79,9 +76,32 @@
   justify-content: space-between;
 }
 
-.textCarrousel h1 {
-  font-size: 3rem;
+.headerCarrousel {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  gap: 3rem;
+
 }
+
+.headerCarrousel div {
+  display: flex;
+  align-items: center;
+
+  height: 2.2rem;
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.9rem;
+  line-height: 6rem;
+
+  color: #333333;
+  background-color: #becc40;
+}
+
 
 .descriptionCarrousel {
   display: flex;
@@ -219,6 +239,7 @@
 
 .containerProducts {
   display: flex;
+  align-items: center;
 
   flex-direction: column;
 
@@ -227,12 +248,31 @@
   width: 96rem;
 }
 
-.containerProducts h1 {
-  text-align: center;
+.headerProducts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
 }
 
+.headerProducts div {
+  display: flex;
+  align-items: center;
+
+  height: 2rem;
+
+
+  Font-family: Roboto;
+  font-weight: 700;
+  Font-size: 36px;
+  color: #333333;
+  background-color: #becc40;
+}
+
+
+
 .containerBolProducts {
-  display: none;
+  display: flex;
 
   gap: 5rem;
   align-items: center;
