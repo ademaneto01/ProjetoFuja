@@ -10,66 +10,50 @@ const Header = () => {
   const isPortfolioRoute = location.pathname === "/portfolio";
 
   const navigate = useNavigate();
-  const [open, setOpen] = React.useState(false);
-
-  const handleOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-  };
+  const [openModal, setOpenModal] = React.useState(false);
 
   function BasicModal() {
     return (
-      <div>
-        <Modal
-          open={open}
-          onClose={handleClose}
-          aria-labelledby="modal-modal-title"
-          aria-describedby="modal-modal-description"
+      <div style={{ display: openModal ? "flex" : "none" }} className="modal">
+        <div
+          className="btnCloseModalHeader"
+          onClick={() => setOpenModal(false)}
         >
-          <Box id="modalHeader">
-            <div className="boxBtnHeader">
-              <div className="btnCloseModalHeader" onClick={handleClose}>
-                <div className="btnSvg"></div>
-              </div>
-            </div>
-            <div className="boxNavModal">
-              <div
-                className="titleModalHeader"
-                onClick={() => {
-                  navigate("/");
-                }}
-              >
-                Home
-              </div>
-              <div
-                className="titleModalHeader"
-                onClick={() => {
-                  navigate("/portfolio");
-                }}
-              >
-                Portfólio
-              </div>
-              <div className="titleModalHeader">Portal de aventuras</div>
-              <div
-                className="titleModalHeader"
-                onClick={() => {
-                  navigate("/contact");
-                }}
-              >
-                Contrate o Fuja
-              </div>
-            </div>
-            <div className="containerFooterModal">
-              <div className="logoHeader"> </div>
-              <div className="textModalFooter">
-                A sua produção audiovisual fora do convencional
-              </div>
-            </div>
-          </Box>
-        </Modal>
+          <div className="btnSvg"></div>
+        </div>
+        <div className="boxNavModal">
+          <div
+            className="titleModalHeader"
+            onClick={() => {
+              navigate("/");
+            }}
+          >
+            Home
+          </div>
+          <div
+            className="titleModalHeader"
+            onClick={() => {
+              navigate("/portfolio");
+            }}
+          >
+            Portfólio
+          </div>
+          <div className="titleModalHeader">Portal de aventuras</div>
+          <div
+            className="titleModalHeader"
+            onClick={() => {
+              navigate("/contact");
+            }}
+          >
+            Contrate o Fuja
+          </div>
+        </div>
+        <div className="containerFooterModal">
+          <div className="logoHeader"> </div>
+          <div className="textModalFooter">
+            A sua produção audiovisual fora do convencional
+          </div>
+        </div>
       </div>
     );
   }
@@ -78,11 +62,11 @@ const Header = () => {
     <>
       <header
         className="header"
-        style={{ position: open ? "absolute" : "fixed" }}
+        style={{ position: openModal ? "absolute" : "fixed" }}
       >
         <nav
           className={isPortfolioRoute ? "buttonsPortfolio" : "buttonsHome"}
-          onClick={handleOpen}
+          onClick={() => setOpenModal(true)}
         >
           <img
             src="/img/menu.png"
