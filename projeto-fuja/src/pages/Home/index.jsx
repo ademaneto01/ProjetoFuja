@@ -2,6 +2,8 @@ import "./styles.css";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
+import CarouselSection from "../../components/carouselSection";
+
 import { useNavigate } from "react-router-dom";
 
 function App() {
@@ -30,48 +32,8 @@ function App() {
           </p>
         </div>
       </div>
-      <div className="containerCarrousel">
-        <div className="infosCarrousel">
-          <div className="textCarrousel">
-            <div className="headerCarrousel">
-              <div className="">
-                <p>O Fuja é um estilo de vida.</p>
-              </div>
-              <div className="headerCarrouselLine2">
-                <p>Uma inspiração.</p>
-              </div>
-              <div className="headerCarrouselLine3">
-                <p>É liberdade.</p>
-              </div>
-            </div>
-
-            <div className="descriptionCarrousel">
-              <p>
-                Somos uma equipe de produção audiovisual que aborda e comunica
-                de forma inovadora conteúdos relacionados ao meio ambiente,
-                turismo e cultura.
-              </p>
-
-              <p>
-                Na produção audiovisual, trabalhamos com todo o processo: desde
-                a roteirização, pré-produção e planejamento do conteúdo, além
-                das gravações, direção, edição e pós-produção.
-              </p>
-            </div>
-          </div>
-          <div className="boxImgCarrousel">
-            <div className="infosImgCarrousel" />
-            <div className="boxBtnsCarrousel">
-              <button className="btn-icon-right">
-                <img src="/img/icon.svg" alt="icon" />
-              </button>
-              <button className="btn-icon-right">
-                <img src="/img/icon.svg" alt="icon" />
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+      <CarouselSection />
+      
       <div className="screamVideosFuja">
         <div className="boxPrincipalInfosVideos">
           <h1 className="titleVideos">

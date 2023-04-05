@@ -1,0 +1,95 @@
+.containerCarrousel {
+    display: flex;
+  
+    height: 100vh;
+  
+    justify-content: center;
+    align-items: center;
+  
+    flex-direction: row;
+    background-color: #ffffff;
+
+  }
+
+  .infosCarrousel {
+    display: flex;
+  
+    justify-content: space-around;
+    align-items: center;
+  
+    height: 44.8rem;
+    width: 96rem;
+    gap: 3.2rem;
+  }
+  
+  .textCarrousel {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+  }
+  
+  .headerCarrousel {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  
+    gap: 3rem;
+  
+  }
+  
+  .headerCarrousel div {
+    display: flex;
+    align-items: center;
+  
+    height: 2.2rem;
+  
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.7rem;
+    line-height: 6rem;
+  
+    color: #333333;
+    background-color: #becc40;
+  }
+  
+  
+  .descriptionCarrousel {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  
+    font-size: 2rem;
+  }
+  
+  
+  .boxCarrousel {
+
+    width: 50%;
+    height: 100%;
+  }
+
+  .imgCarrousel{
+    
+
+    
+
+    margin-bottom: 64px;
+  }
+  
+  .carrouselPagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .carrouselPagination div{
+    display: flex;
+    gap: 24px;
+
+    margin: 0 40px;
+  }
