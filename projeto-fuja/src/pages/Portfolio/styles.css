@@ -407,7 +407,8 @@
 .boxDepoimentos {
   display: flex;
 
-  justify-content: space-around;
+  padding: 30px;
+  gap: 24px;
 
   flex-direction: column;
   width: 55.2rem;
@@ -467,7 +468,7 @@
 
   position: absolute;
 
-  margin-top: 33.5rem;
+  margin-top: 21.5rem;
   margin-left: 18rem;
   background-image: url(../../../public/img/Ellipse14.svg);
 
@@ -480,7 +481,7 @@
 
   position: absolute;
 
-  margin-top: 33.5rem;
+  margin-top: 21.5rem;
   margin-left: 18rem;
   background-image: url(../../../public/img/Ellipse13.svg);
 
