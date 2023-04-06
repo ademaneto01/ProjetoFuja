@@ -1,10 +1,11 @@
 .footer {
-  background-color: #333;
-  padding: 1.6rem;
+  height: 230px;
+  
   display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 50px 107px ;
+
   color: #fff;
+  background-color: #333;
 }
 
 .footer a {
@@ -12,20 +13,19 @@
 }
 
 .left-container {
+  width: 45%;
+
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  border-right: solid 0.1rem #666;
-  height: 16rem;
-  width: 100%;
-  padding: 1em;
+  gap: 40px;
+
+  border-right: solid 0.2rem #666;
 }
 
 .logo {
-  margin-right: 6.4rem;
+
   border-radius: 50%;
   cursor: pointer;
-  background-color: #fff;
   height: 11.2rem;
 }
 
@@ -43,8 +43,7 @@
 .right-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 100%;
+  gap: 80px;
 }
 
 .footer nav {
@@ -53,9 +52,12 @@
   align-items: flex-start;
   justify-content: center;
   cursor: pointer;
+  margin-left: 74px;
 }
 
 .footer nav a {
+  font-weight: 700;
+  font-size: 16px;
   margin-bottom: 1.6rem;
   text-decoration: underline;
 }
@@ -68,23 +70,32 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  gap: 24px;
 }
 
 .social-media p {
-  font-weight: 700;
-  margin-bottom: 3.2rem;
+  font-size: 17px;
+  font-weight:700;
+  
 }
 
 .social-media-icons {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 3.2rem;
+  gap: 12px;
+ 
 }
 
 .social-media-icons a {
   cursor: pointer;
 }
 
+.contact{
+  display: flex;
+  gap: 10px;
+}
+
 .contact a {
+  font-size: 16px;
+  font-weight: 400;
   cursor: pointer;
 }
