@@ -155,10 +155,10 @@ function App() {
         <div className="infosPortal">
           <h1>Portal de aventuras</h1>
           <p>
-            O Fuja também possui uma plataforma integrada para conectar
-            viajantes à natureza.<br></br>
-            São mais de 1700 passeios por todo o Brasil para você sair do
-            convencional
+            O Fuja também possui uma <strong>plataforma integrada</strong> para
+            conectar viajantes à natureza.<br></br>
+            São mais de <strong>1700 passeios por todo o Brasil</strong> para
+            você sair do convencional
           </p>
           <a id="btnPortalAventuras" href="https://www.fuja.com.br">
             Conheça aqui
