@@ -117,25 +117,49 @@ function App() {
 
           <div className="containerBolProducts">
             <div id="boxProducts">
-              <div className="bolProdutcs"></div>
+              <img
+                className="bolProdutcs"
+                src="/img/trabalhos/trabalho1.svg"
+                alt=""
+              />
               <div className="txtProduct">fotos e vídeos em alta resolução</div>
             </div>
+
             <div id="boxProducts">
-              <div className="bolProdutcs"></div>
+              <img
+                className="bolProdutcs"
+                src="/img/trabalhos/trabalho2.svg"
+                alt=""
+              />
               <div className="txtProduct">
                 tomadas aéreas com drone profissional
               </div>
             </div>
+
             <div id="boxProducts">
-              <div className="bolProdutcs"></div>
+              <img
+                className="bolProdutcs"
+                src="/img/trabalhos/trabalho3.svg"
+                alt=""
+              />
               <div className="txtProduct">Vídeo Clip</div>
             </div>
+
             <div id="boxProducts">
-              <div className="bolProdutcs"></div>
+              <img
+                className="bolProdutcs"
+                src="/img/trabalhos/trabalho4.svg"
+                alt=""
+              />
               <div className="txtProduct">Produções audiovisuais completas</div>
             </div>
+
             <div id="boxProducts">
-              <div className="bolProdutcs"></div>
+              <img
+                className="bolProdutcs"
+                src="/img/trabalhos/trabalho5.svg"
+                alt=""
+              />
               <div className="txtProduct">Divulgação nas redes sociais</div>
             </div>
           </div>
