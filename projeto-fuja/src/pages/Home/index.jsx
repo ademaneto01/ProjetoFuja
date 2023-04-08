@@ -26,14 +26,29 @@ function App() {
             Sua produção audiovisual <br></br>fora do convencional
           </h1>
           <p>
-            Trabalhando de forma leve e autêntica, o Fuja une criatividade e
-            tecnologia <br></br> como forma de dar protagonismo às suas
-            produções
+            Trabalhando de forma leve e autêntica, o Fuja une criatividade e{" "}
+            <br />
+            tecnologia como forma de dar protagonismo às suas produções
           </p>
+
+          <div>
+            <a href="https://www.youtube.com/">
+              <img src="/img/social-icons/youtube.svg" alt="youtube" />
+            </a>
+            <a href="https://www.instagram.com/">
+              <img src="/img/social-icons/insta.svg" alt="insta" />
+            </a>
+            <a href="https://www.tiktok.com/">
+              <img src="/img/social-icons/tiktok.svg" alt="tiktok" />
+            </a>
+            <a href="https://www.facebook.com/">
+              <img src="/img/social-icons/face.svg" alt="face" />
+            </a>
+          </div>
         </div>
       </div>
       <CarouselSection />
-      
+
       <div className="screamVideosFuja">
         <div className="boxPrincipalInfosVideos">
           <h1 className="titleVideos">

@@ -18,10 +18,10 @@
   display: flex;
   flex-direction: column;
 
-  justify-content: space-between;
+  gap: 40px;
   position: absolute;
   width: 100%;
-  height: 24rem;
+
 }
 
 #boxTextVideoPrincipal h1 {
@@ -43,6 +43,18 @@
   font-size: 2.6rem;
   line-height: 3.4rem;
 }
+
+#boxTextVideoPrincipal div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+#boxTextVideoPrincipal div a img{
+  width: 50px;
+  height: 50px;
+ }
 
 .screamVideosFuja {
   display: flex;
