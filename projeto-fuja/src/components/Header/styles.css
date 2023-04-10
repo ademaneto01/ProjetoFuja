@@ -79,7 +79,7 @@
   flex-direction: column;
   justify-content: space-between;
 
-  padding: 14px  154px 14px 119px ;
+  padding: 1.4rem  15.4rem 1.4rem 11.9rem ;
   
 }
 
@@ -120,7 +120,7 @@
   display: flex;
   flex-direction: column;
 
-  gap: 24px; 
+  gap: 2.4rem; 
 }
 
 .titleModalHeader {
@@ -144,7 +144,7 @@
 .containerFooterModal {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 2.4rem;
 }
 
 .textModalFooter {
@@ -155,7 +155,7 @@
   font-weight: 500;
   font-size: 2.4rem;
 
-  line-height: 36px;
+  line-height: 3.6rem;
 
   color: #ffffff;
 }
