@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 const carrouselItems = [
   {
     id: 1,
-    url: "/img/img-carrosel-home/img1.svg",
+    url: "/img/img-carrosel-home/img2.svg",
     description: (
       <div className="descriptionCarrousel">
         <p>
@@ -28,7 +28,7 @@ const carrouselItems = [
   },
   {
     id: 2,
-    url: "/img/img-carrosel-home/img2.svg",
+    url: "/img/img-carrosel-home/img1.svg",
     description: (
       <div className="descriptionCarrousel">
         <p>
