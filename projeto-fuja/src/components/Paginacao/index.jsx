@@ -15,6 +15,7 @@ cardPrev.addEventListener('click', () => {
     }
     criandoCard(start, end);
 })
+
 cardNext.addEventListener('click', () => {
     if (end < cardsFilter.length) {
         start += quantidadeCards;
