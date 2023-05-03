@@ -71,7 +71,10 @@ function Pagination({ swaper, indexCarrouselItem }) {
       </div>
       <NextButton
         className="carrouselPaginationButtons"
-        onClick={() => swaper.current.slickNext()}
+        onClick={() => {
+          console.log(swaper.current);
+          swaper.current.slickNext();
+        }}
       />
     </div>
   );
@@ -112,8 +115,8 @@ const CarouselSection = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    afterChange: function (index) {
-      setIndexCarrouselItem(index);
+    beforeChange: function (oldIndex, newIndex) {
+      setIndexCarrouselItem(newIndex);
     },
   };
 
