@@ -1,95 +1,139 @@
 .containerCarrousel {
-    display: flex;
-  
-    height: 100vh;
-  
-    justify-content: center;
-    align-items: center;
-  
-    flex-direction: row;
-    background-color: #ffffff;
+  display: flex;
 
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: row;
+  background-color: #fff;
+}
+
+.infosCarrousel {
+  display: flex;
+
+  
+  align-items: center;
+
+  height: 44.8rem;
+  width: 96rem;
+  gap: 3.2rem;
+}
+
+.textCarrousel {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2.4rem;
+}
+
+.headerCarrousel {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  gap: 3rem;
+}
+
+.headerCarrousel div {
+  display: flex;
+  align-items: center;
+
+  height: 2.2rem;
+  width: auto;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.7rem;
+  line-height: 6rem;
+
+  color: #333333;
+  background-color: #becc40;
+}
+
+.descriptionCarrousel {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  font-size: 2rem;
+}
+
+.boxCarrousel {
+  width: 50%;
+  height: 100%;
+}
+
+.imgCarrousel {
+  margin-bottom: 6.4rem;
+}
+
+.carrouselPagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrouselPagination div {
+  display: flex;
+  gap: 2.4rem;
+
+  margin: 0 4rem;
+}
+
+@media screen and (max-width: 767px) {
+  .containerCarrousel {
+    height: 90rem;
+    padding: 1.6rem;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+  }
+
+  .headerCarrousel {
+  gap: 2rem;
+  }
+
+  .headerCarrousel div {
+    
+    font-size: 2.4rem;
   }
 
   .infosCarrousel {
-    display: flex;
-  
-    justify-content: space-around;
-    align-items: center;
-  
-    height: 44.8rem;
-    width: 96rem;
-    gap: 3.2rem;
-  }
-  
-  .textCarrousel {
-    width: 50%;
-    height: 100%;
-    display: flex;
     flex-direction: column;
-    align-items: start;
-    gap: 2.4rem;
+    width: 100%;
   }
-  
-  .headerCarrousel {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-  
-    gap: 3rem;
-  
+
+  .infosCarrousel * {
+    width: 100%;
   }
-  
-  .headerCarrousel div {
-    display: flex;
-    align-items: center;
-  
-    height: 2.2rem;
-  
-  
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 3.7rem;
-    line-height: 6rem;
-  
-    color: #333333;
-    background-color: #becc40;
-  }
-  
-  
+
   .descriptionCarrousel {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  
-    font-size: 2rem;
-  }
-  
-  
-  .boxCarrousel {
-
-    width: 50%;
-    height: 100%;
+    height: 26rem;
+    margin-bottom: 2.4rem;
   }
 
-  .imgCarrousel{
-    
-
-    
-
-    margin-bottom: 6.4rem;
+  .carrouselPaginationButtons {
+    display: none;
   }
-  
-  .carrouselPagination{
+
+  .imgCarrousel {
+    margin-bottom: 2.4rem;
+  }
+
+  .carrouselPagination div {
     display: flex;
     align-items: center;
     justify-content: center;
   }
- 
-  .carrouselPagination div{
-    display: flex;
-    gap: 2.4rem;
 
-    margin: 0 4rem;
+  .carrouselPagination img {
+    width: 1.6rem;
+    height: 1.6rem;
   }
+}
