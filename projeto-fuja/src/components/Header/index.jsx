@@ -23,6 +23,7 @@ const Header = () => {
           <div
             className="titleModalHeader"
             onClick={() => {
+              window.scrollTo({ top: 0, behavior: "instant" });
               navigate("/");
             }}
           >
@@ -31,6 +32,7 @@ const Header = () => {
           <div
             className="titleModalHeader"
             onClick={() => {
+              window.scrollTo({ top: 0, behavior: "instant" });
               navigate("/portfolio");
             }}
           >
@@ -40,6 +42,7 @@ const Header = () => {
           <div
             className="titleModalHeader"
             onClick={() => {
+              window.scrollTo({ top: 0, behavior: "instant" });
               navigate("/contact");
             }}
           >
@@ -76,6 +79,7 @@ const Header = () => {
         <img
           src="/img/logoFuja.svg"
           onClick={() => {
+            window.scrollTo({ top: 0 });
             navigate("/");
           }}
           alt="logoFuja"
@@ -89,6 +93,7 @@ const Header = () => {
         <button
           className={isPortfolioRoute ? "buttonsPortfolio" : "buttonsHome"}
           onClick={() => {
+            window.scrollTo({ top: 0 });
             navigate("/contact");
           }}
         >

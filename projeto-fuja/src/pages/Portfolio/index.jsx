@@ -32,7 +32,16 @@ export default function Portfolio() {
             </div>
             <div className="boxVideosModal">
               <div className="boxInternoVideoModal">
-                <div className="videoModal" id="videoModal1">
+                <div
+                  onClick={() => {
+                    window.open(
+                      "https://www.instagram.com/reel/CjG1qqiJ_Lp/?igshid=YmMyMTA2M2Y=",
+                      "_blank"
+                    );
+                  }}
+                  className="videoModal"
+                  id="videoModal1"
+                >
                   <div className="btnPlayModal">
                     <div className="iconPlayModal" />
                   </div>
@@ -40,7 +49,16 @@ export default function Portfolio() {
                 <div className="textVideoModal">Apoio ao Movimento Grauça</div>
               </div>
               <div className="boxInternoVideoModal">
-                <div className="videoModal" id="videoModal2">
+                <div
+                  onClick={() => {
+                    window.open(
+                      "https://www.instagram.com/reel/Ch8Db4KJZkW/?igshid=YmMyMTA2M2Y=",
+                      "_blank"
+                    );
+                  }}
+                  className="videoModal"
+                  id="videoModal2"
+                >
                   <div className="btnPlayModal">
                     <div className="iconPlayModal"></div>
                   </div>
@@ -50,7 +68,16 @@ export default function Portfolio() {
                 </div>
               </div>
               <div className="boxInternoVideoModal">
-                <div className="videoModal" id="videoModal3">
+                <div
+                  onClick={() => {
+                    window.open(
+                      "https://www.instagram.com/reel/Cjqyn7dJg15/?igshid=YmMyMTA2M2Y=",
+                      "_blank"
+                    );
+                  }}
+                  className="videoModal"
+                  id="videoModal3"
+                >
                   <div className="btnPlayModal">
                     <div className="iconPlayModal"></div>
                   </div>
@@ -58,7 +85,16 @@ export default function Portfolio() {
                 <div className="textVideoModal">Conscientização ambiental</div>
               </div>
               <div className="boxInternoVideoModal">
-                <div className="videoModal" id="videoModal4">
+                <div
+                  onClick={() => {
+                    window.open(
+                      "https://www.instagram.com/reel/CdHAEB4JddS/?igshid=YmMyMTA2M2Y=",
+                      "_blank"
+                    );
+                  }}
+                  className="videoModal"
+                  id="videoModal4"
+                >
                   <div className="btnPlayModal">
                     <div className="iconPlayModal"></div>
                   </div>

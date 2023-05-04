@@ -53,16 +53,19 @@ function App() {
           </p>
 
           <div>
-            <a href="https://www.youtube.com/">
+            <a href="https://www.youtube.com/@FUJAbr/videos" target="_blank">
               <img src="/img/social-icons/youtube.svg" alt="youtube" />
             </a>
-            <a href="https://www.instagram.com/">
+            <a
+              href="https://instagram.com/fujabr?igshid=YmMyMTA2M2Y="
+              target="_blank"
+            >
               <img src="/img/social-icons/insta.svg" alt="insta" />
             </a>
-            <a href="https://www.tiktok.com/">
+            <a href=" https://www.tiktok.com/@fuja_br" target="_blank">
               <img src="/img/social-icons/tiktok.svg" alt="tiktok" />
             </a>
-            <a href="https://www.facebook.com/">
+            <a href="https://www.facebook.com/fujabr/" target="_blank">
               <img src="/img/social-icons/face.svg" alt="face" />
             </a>
           </div>

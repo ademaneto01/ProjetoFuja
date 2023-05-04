@@ -18,7 +18,17 @@ function VideosPortfolio({ handleOpen }) {
             Bahia
           </div>
           <div className="boxBtnVideo">
-            <button id="btn1">Assistir minissérie</button>
+            <button
+              onClick={() => {
+                window.open(
+                  "https://www.youtube.com/watch?v=pMemuv46sOc&list=PLID04XLavOGQit9Nuw_LxtLvW1HT0rJjh&index=2&ab_channel=FUJA",
+                  "_blank"
+                );
+              }}
+              id="btn1"
+            >
+              Assistir minissérie
+            </button>
           </div>
         </div>
       </div>
@@ -33,7 +43,17 @@ function VideosPortfolio({ handleOpen }) {
             sobre o sentimento "Saudade e a estrada"
           </div>
           <div className="boxBtnVideo">
-            <button id="btn2">Assistir vídeo</button>
+            <button
+              onClick={() => {
+                window.open(
+                  "https://www.instagram.com/reel/CZ15C2cDhaq/?igshid=YmMyMTA2M2Y=",
+                  "_blank"
+                );
+              }}
+              id="btn2"
+            >
+              Assistir vídeo
+            </button>
           </div>
         </div>
       </div>
@@ -48,7 +68,17 @@ function VideosPortfolio({ handleOpen }) {
             Reserva da Biosfera da Mata Atlântica
           </div>
           <div className="boxBtnVideo">
-            <button id="btn2">Assistir vídeo</button>
+            <button
+              onClick={() => {
+                window.open(
+                  "https://www.youtube.com/watch?v=j6jLser3orY&t=27s&ab_channel=FUJA",
+                  "_blank"
+                );
+              }}
+              id="btn2"
+            >
+              Assistir vídeo
+            </button>
           </div>
         </div>
       </div>
@@ -63,7 +93,17 @@ function VideosPortfolio({ handleOpen }) {
             Catarina
           </div>
           <div className="boxBtnVideo">
-            <button id="btn1">Assistir vídeoclipe</button>
+            <button
+              onClick={() => {
+                window.open(
+                  "https://www.youtube.com/watch?v=pQhf-aswL40&ab_channel=LauraCatarina",
+                  "_blank"
+                );
+              }}
+              id="btn1"
+            >
+              Assistir vídeoclipe
+            </button>
           </div>
         </div>
       </div>
