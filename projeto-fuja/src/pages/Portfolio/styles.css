@@ -5,16 +5,12 @@
 
 .containerPortolio {
   display: flex;
-
   flex-direction: column;
-
-
-  height: 100vh;
 
 }
 
 .boxImgPortolio {
-  height: 50%;
+  height: 32rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../../public/img/capaPortfolio.png);
@@ -24,23 +20,16 @@
   display: flex;
 
   flex-direction: column;
+  padding: 8rem 11.9rem 12rem;
 
-  justify-content: center;
-  align-items: center;
-
-  height: 50%;
   background-color: #FFFFFF;
 }
 
 .boxTextIni {
   display: flex;
 
+  gap: 3.1rem;
   flex-direction: column;
-
-  justify-content: space-between;
-
-  width: 112.8rem;
-  height: 16.3rem;
 }
 
 .boxTxt {
@@ -53,236 +42,52 @@
   color: #333333;
 }
 
-.boxTitle {
+.boxTitle{
   display: flex;
+  flex-direction: column;
+  align-items: start;
+}
 
+.boxTitle div {
+  display: flex;
   align-items: center;
 
-  background-color: #62CBE9;
-
-  height: 2.2rem;
-  width: 38.3rem;
+  height: 2rem;
+  width: auto;
 
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 800;
   font-size: 5rem;
   line-height: 6rem;
-
   color: #333333;
-}
-
-.txtVideoPortfolio {
-  height: 18.3rem;
-
-  padding-left: 2.4rem;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 2.6rem;
-  line-height: 3.4rem;
-}
-
-.boxVideosPortfolio {
-  display: flex;
-
-  flex-direction: column;
-
-  gap: 8.3rem;
-
-  align-items: center;
-  justify-content: space-around;
-
-  background-color: #333333;
-  padding-bottom: 8.3rem;
-
-
-  height: auto;
-}
-
-.boxTitleVideos {
-
-  width: 112.8rem;
-
-  padding-top: 4.2rem;
-  margin-bottom: -4rem;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 2.6rem;
-  line-height: 3.4rem;
-
-  color: #FFFFFF;
-}
-
-.ContainerMoviePortfolio {
-  display: flex;
-
-  width: 112.8rem;
-  height: 30.5rem;
-
-  background-color: #FFFFFF;
-}
-
-.boxVideoPortfolio {
-  width: 55.2rem;
-}
-
-#boxInfosVideoPortfolio {
-  display: flex;
-  width: 57.6rem;
-  height: 100%;
-  background-color: #333333;
-  flex-direction: column;
-
-}
-
-.txtVideoPortfolio {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 2.8rem;
-  line-height: 4.4rem;
-
-  color: #FFFFFF;
-
-}
-
-#boxVideoPortfolioOne {
-  background-image: url(../../../public/img/rec01.svg);
-
-  width: 55.2rem ;
-
-  background-repeat: no-repeat;
-  background-position: cover;
-}
-
-#boxVideoPortfolioTwo {
-  background-image: url(../../../public/img/rec2.svg);
-
-  width: 55.2rem;
-
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#boxVideoPortfolioTree {
-  background-image: url(../../../public/img/rec3.svg);
-
-  width: 55.2rem;
-
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#boxVideoPortfolioFour {
-  background-image: url(../../../public/img/rec04.svg);
-
-  width: 55.2rem;
-
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#boxVideoPortfolioFive {
-  background-image: url(../../../public/img/rec05.svg);
-
-  width: 55.2rem;
-
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.boxBtnVideo {
-  display: flex;
-
-  align-items: center;
-  height: 12.1rem;
-
-  padding-left: 2.4rem;
-
-}
-
-#btn1 {
-  all: unset;
-
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-
-  color: #FFFFFF;
-
-  cursor: pointer;
-
-  border: 0.1rem solid #FFFFFF;
-
-  height: 4rem;
-  width: 16.6rem;
-  border-radius: 3.2rem;
-
-  font-family: Roboto;
-font-weight: 500;
-font-size: 1.6rem;
-
-}
-
-#btn1:hover {
-  transition: 0.3s;
   background-color: #62CBE9;
-  color: #333333;
-}
-
-#btn2 {
-
-  all: unset;
-
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-
-  color: #FFFFFF;
-
-  border: 0.1rem solid #FFFFFF;
-
-  cursor: pointer;
-
-  height: 4rem;
-  width: 13rem;
-
-  border-radius: 3.2rem;
-
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 1.6rem;
-}
-
-#btn2:hover {
-  transition: 0.3s;
-  background-color: #62CBE9;
-  color: #333333;
 }
 
 .containerTime {
   display: flex;
 
-  justify-content: space-evenly;
+  gap: 6.4rem;
   align-items: center;
 
+  padding: 5.6rem 5rem 10rem;
   flex-direction: column;
 
   background-color: #FFFFFF;
-  height: 120vh;
+ 
 }
 
 .ContainerTitleTime {
-  width: 112.8rem;
+ width: 100%;
 }
 
 .boxTitleTime {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.boxTitleTime div{
   display: flex;
 
   align-items: center;
@@ -290,7 +95,7 @@ font-size: 1.6rem;
   background-color: #62CBE9;
 
   height: 2.2rem;
-  width: 33rem;
+  width: auto;
 
   font-family: 'Roboto';
   font-style: normal;
@@ -304,60 +109,41 @@ font-size: 1.6rem;
 .boxPicturesTime {
   display: flex;
   justify-content: space-around;
-  height: 46.3rem;
-  width: 112.8rem;
-}
-
-.pictureTimeMi {
-  width: 26.4rem;
-  height: 26.4rem;
-
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../../../public/img/equipe03.svg);
-
-  border-radius: 50%;
-  border: 0.4rem solid #62CBE9;
+  width:100%;
 }
 
 .boxPicture {
   display: flex;
-
   flex-direction: column;
-  align-items: center;
+  gap: 1.6rem;
 
-  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pictureTime{
+   width: 26.4rem;
+  height: 26.4rem;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+   border-radius: 50%;
+  border: 0.4rem solid #62CBE9;
+}
+
+.pictureTimeMi {
+  background-image: url(../../../public/img/equipe03.svg);
 }
 
 .pictureTimePrimo {
-  width: 26.4rem;
-  height: 26.4rem;
-
-  background-size: cover;
-  background-repeat: no-repeat;
   background-image: url(../../../public/img/equipe01.svg);
-
-  border-radius: 50%;
-  border: 0.4rem solid #62CBE9;
 }
 
 .pictureTimeMoreno {
-  width: 26.4rem;
-  height: 26.4rem;
-
-
-  background-size: cover;
-  background-repeat: no-repeat;
   background-image: url(../../../public/img/equipe2.svg);
-
-  border-radius: 50%;
-  border: 0.4rem solid #62CBE9;
 }
 
 .nameTime {
-  width: 18.2rem;
-  height: 3.4rem;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -375,286 +161,11 @@ font-size: 1.6rem;
   line-height: 2.4rem;
 
   width: 36rem;
-  height: 9.6rem;
+  
 
   text-align: center;
 
   color: #333333;
-}
-
-.containerDepoimentos {
-  display: flex;
-
-  height: 95vh;
-
-  justify-content: space-evenly;
-  align-items: center;
-
-  flex-direction: column;
-
-  background-color: #333333;
-}
-
-.ContainerTitleDepoimento {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 5rem;
-  line-height: 6rem;
-
-  width: 112.8rem;
-
-  color: #FFFFFF;
-}
-
-.containerInfoDepoimentos {
-  display: flex;
-
-  justify-content: space-between;
-  width: 112.8rem;
-  height: 42.5rem;
-}
-
-.boxDepoimentos {
-  display: flex;
-
-  padding: 3rem;
-  gap: 2.4rem;
-
-  flex-direction: column;
-  width: 55.2rem;
-  height: 30.5rem;
-
-  padding-left: 4.1rem;
-
-  background: #F4F4F4;
-  border-radius: 1rem;
-
-}
-
-.boxNomeDepoimento {
-  display: flex;
-
-  flex-direction: column;
-
-  justify-content: space-around;
-  width: 49.6rem;
-  height: 7rem;
-
-
-}
-
-.nomeDepoimento {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2.4rem;
-
-  color: #333333;
-}
-
-#descriDepoimento {
-  font-family: 'Roboto';
-  font-style: italic;
-  font-weight: 400;
-  font-size: 2rem;
-  line-height: 3.4rem;
-
-  color: #333333;
-}
-
-#textDepoimentos {
-  width: 47.3rem;
-  height: 8.5rem;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2.4rem;
-
-  color: #333333;
-}
-
-#pictureDepoimento1 {
-
-  position: absolute;
-
-  margin-top: 21.5rem;
-  margin-left: 18rem;
-  background-image: url(../../../public/img/Ellipse14.svg);
-
-
-  width: 12rem;
-  height: 12rem;
-}
-
-#pictureDepoimento2 {
-
-  position: absolute;
-
-  margin-top: 21.5rem;
-  margin-left: 18rem;
-  background-image: url(../../../public/img/Ellipse13.svg);
-
-
-  width: 12rem;
-  height: 12rem;
-}
-
-.containerParcerias {
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  background-color: #FFFFFF;
-}
-
-.boxImgParcerias {
-  display: flex;
-
-  flex-direction: column;
-
-  justify-content: space-between;
-  width: 112.8rem;
-  height: 32rem;
-}
-
-.ContainerTitleParcerias {
-  width: 112.8rem;
-}
-
-.boxTitleParcerias {
-  display: flex;
-
-  align-items: center;
-
-  background-color: #62CBE9;
-
-  width: 46.4rem;
-  height: 2.2rem;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 5rem;
-  line-height: 6rem;
-
-  color: #333333;
-}
-
-.imgsParcerias1 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 112.6rem;
-  height: 11.5rem;
-}
-
-.imgTop1 {
-  width: 11.7rem;
-  height: 9.2rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../../../public/img/ParquedasDunas.svg);
-}
-
-.imgTop2 {
-  width: 11.4rem;
-  height: 11.5rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../../../public/img/BaleiaJubarte.svg);
-}
-
-.imgTop3 {
-  width: 13.8rem;
-  height: 11.5rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../../../public/img/Klaus.svg);
-}
-
-.imgTop4 {
-  width: 8.9rem;
-  height: 11.5rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../../../public/img/ECOA-removebg-preview1.svg);
-}
-
-.imgTop5 {
-  width: 12.3rem;
-  height: 11.5rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../../../public/img/Tamar.svg);
-}
-
-.imgTop6 {
-  width: 10.5rem;
-  height: 11.5rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../../../public/img/Sapiranga.svg);
-}
-
-.imgTop7 {
-  width: 11.6rem;
-  height: 11.5rem;
-
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  background-image: url(../../../public/img/TerraMirim.svg);
-}
-
-.imgBottom1 {
-  width: 16.9rem;
-  height: 4.6rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../../../public/img/globo.svg);
-}
-
-.imgBottom2 {
-  width: 11.7rem;
-  height: 5.7rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../../../public/img/RPPNLontra.svg);
-}
-
-.imgBottom3 {
-  width: 13.5rem;
-  height: 9.2rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../../../public/img/RBMATransparente.svg);
-}
-
-.imgBottom4 {
-  width: 16.1rem;
-  height: 4.6rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../../../public/img/logo_final_taboa.svg);
-}
-
-.imgBottom5 {
-  width: 11.2rem;
-  height: 5.7rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../../../public/img/ParquedaMAta.svg);
-}
-
-.imgBottom6 {
-  width: 15.4rem;
-  height: 3.5rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../../../public/img/bracell_logo_FA.svg);
 }
 
 #boxModal {
@@ -707,56 +218,40 @@ font-size: 1.6rem;
   padding: 5.2rem 6rem 4rem;
 }
 
-#videoModal1 {
+.boxInternoVideoModal {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 1.6rem;
+  
+}
+
+.videoModal{
   display: flex;
 
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("../../../public/img/rec052.svg");
-
   justify-content: center;
   align-items: center;
   width: 20rem;
   height: 31rem;
+}
+
+#videoModal1 {
+  background-image: url("../../../public/img/rec052.svg");
 }
 
 #videoModal2 {
-  display: flex;
-
-  background-size: cover;
-  background-repeat: no-repeat;
   background-image: url("../../../public/img/image5.svg");
-
-  justify-content: center;
-  align-items: center;
-  width: 20rem;
-  height: 31rem;
 }
 
 #videoModal3 {
-  display: flex;
-
-  background-size: cover;
-  background-repeat: no-repeat;
   background-image: url("../../../public/img/image6.svg");
-
-  justify-content: center;
-  align-items: center;
-  width: 20rem;
-  height: 31rem;
 }
 
 #videoModal4 {
-  display: flex;
-
-  background-size: cover;
-  background-repeat: no-repeat;
   background-image: url("../../../public/img/image7.svg");
-
-  justify-content: center;
-  align-items: center;
-  width: 20rem;
-  height: 31rem;
 }
 
 .textVideoModal {
@@ -777,15 +272,6 @@ font-size: 1.6rem;
   font-size: 1.8rem;
 
   color: #333333;
-}
-
-.boxInternoVideoModal {
-  display: flex;
-
-  flex-direction: column;
-
-  gap: 1.6rem;
-  
 }
 
 .btnPlayModal {
@@ -813,4 +299,137 @@ font-size: 1.6rem;
   background-image: url("../../../public/img/iconPlay.svg");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+@media screen and (max-width: 767px) {
+
+  .boxImgPortolio {
+    height: 16.7rem; 
+  }
+
+  .boxInfosPortfolioInicial {
+    padding: 2.4rem 1.6rem 3rem;
+  }
+
+  .boxTextIni {
+    gap: 1.6rem;
+  }
+
+  .boxTitle{
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+  }
+  
+  .boxTxt {
+    
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+
+  .containerTime {
+    display: flex;
+  
+    gap: 6.4rem;
+    align-items: center;
+  
+    padding: 5.6rem 5rem 10rem;
+    flex-direction: column;
+  
+    background-color: #FFFFFF;
+   
+  }
+
+  
+.ContainerTitleTime {
+  width: 100%;
+}
+
+.boxTitle div {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  
+}
+
+.boxTitleTime div{
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+}
+
+.boxPicturesTime {
+
+  flex-direction: column;
+  gap: 4rem;
+  height: auto;
+  width: 100%;
+}
+
+.pictureTime{
+  width: 16.3rem;
+  height: 16.3rem;
+}
+
+.nameTime {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+}
+
+.textTime {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+#boxModal {
+  height: 100%;
+  width: 100%;
+  padding: 1.6rem;
+
+  gap: 2.5rem;
+}
+
+.titleModal {
+  font-size: 2rem;
+}
+
+.boxVideosModal {
+  display: flex;
+
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 1.5rem;
+  padding: 0;
+}
+
+.boxInternoVideoModal {
+  gap: 0.8rem;
+}
+
+.videoModal{
+
+  width: 15rem;
+  height: 25rem;
+}
+
+.textVideoModal {
+  width: 13rem;
+  height: 4rem;
+
+  font-weight: 600;
+  font-size: 1.4rem;
+
+}
+
+.btnPlayModal {
+  width: 4rem;
+  height: 4rem;
+  
+}
+
+.iconPlayModal {
+  width: 1rem;
+  height: 1rem;
+  
+}
+
 }

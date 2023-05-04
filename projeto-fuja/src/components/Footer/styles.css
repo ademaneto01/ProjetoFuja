@@ -95,7 +95,84 @@ nav a:hover {
 }
 
 .contact a {
-  font-size: 1.rem;
+  font-size: 1.6rem;
   font-weight: 400;
   cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .footer{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .left-container{
+    display: flex;
+    gap: 1.6rem;
+
+    width: 100%;
+
+flex-direction: column;
+border-right: none;
+border-bottom: solid 0.2rem #666 ;
+text-align: center;
+
+padding: 2.4rem 7.4rem;
+  }
+
+  .logo {
+
+    height: 7.6rem;
+  }
+
+  .left-container p {
+    width: 100%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+  
+    color: #FFFFFF;
+  }
+
+  .right-container{
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    gap: 0;
+  }
+
+  .right-container nav{
+    display: flex;
+    align-items: center;
+
+    padding: 2.4rem;
+
+    margin: 0;
+    width: 100%;
+    border-bottom: solid 0.2rem #666 ;
+  }
+
+  .social-media{
+    padding: 2.4rem;
+    align-items: center;
+  }
+
+  .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact a{
+
+  }
+
+  .contact p{
+    display: none;
+  }
 }

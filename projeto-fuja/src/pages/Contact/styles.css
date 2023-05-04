@@ -73,6 +73,7 @@
 .contactSocialMedia p {
   font-size: 2.4rem;
   margin-bottom: 1.6rem;
+  font-weight: 700;
 }
 
 .contactSocialMediaIcons {
@@ -80,4 +81,56 @@
   align-items: center;
   justify-content: center;
   gap: 1.6rem;
+}
+
+@media screen and (max-width: 767px) {
+
+  .contactPage {
+    height: 30rem;
+    width: 100%;
+  }
+  
+  .contactPageInfo {
+    gap: 1.6rem;
+  }
+
+  .contactPageInfo h1 {
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 9.8rem;
+    color: #ffffff;
+  }
+
+  .contactList {
+    gap: 1.6rem;
+  }
+  
+  .contactList h2 {
+    font-size: 2rem;
+    line-height: 2.3rem;
+   
+  }
+  
+  .contactList a {
+    font-size: 1.6rem;
+  }
+
+  .contactSocialMedia {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contactSocialMedia p {
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+  }
+  
+  .contactSocialMediaIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+
+    margin-bottom: 3rem;
+  }
 }

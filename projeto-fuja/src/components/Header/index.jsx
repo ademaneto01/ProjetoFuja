@@ -15,16 +15,15 @@ const Header = () => {
   function BasicModal() {
     return (
       <div style={{ display: openModal ? "flex" : "none" }} className="modal">
-        <div
-          className="btnCloseModalHeader"
-          onClick={() => setOpenModal(false)}
-        >
-          <div className="btnSvg"></div>
+        <div className="btnSvg">
+          <img src="/img/iconWhite.svg" onClick={() => setOpenModal(false)} />
         </div>
+
         <div className="boxNavModal">
           <div
             className="titleModalHeader"
             onClick={() => {
+              window.scrollTo({ top: 0, behavior: "instant" });
               navigate("/");
             }}
           >
@@ -33,6 +32,7 @@ const Header = () => {
           <div
             className="titleModalHeader"
             onClick={() => {
+              window.scrollTo({ top: 0, behavior: "instant" });
               navigate("/portfolio");
             }}
           >
@@ -42,6 +42,7 @@ const Header = () => {
           <div
             className="titleModalHeader"
             onClick={() => {
+              window.scrollTo({ top: 0, behavior: "instant" });
               navigate("/contact");
             }}
           >
@@ -49,7 +50,7 @@ const Header = () => {
           </div>
         </div>
         <div className="containerFooterModal">
-          <div className="logoHeader"> </div>
+          <img className="footerModalImg" src="/img/sitefuja1.svg" alt="" />
           <div className="textModalFooter">
             A sua produção audiovisual fora do convencional
           </div>
@@ -78,6 +79,7 @@ const Header = () => {
         <img
           src="/img/logoFuja.svg"
           onClick={() => {
+            window.scrollTo({ top: 0 });
             navigate("/");
           }}
           alt="logoFuja"
@@ -91,6 +93,7 @@ const Header = () => {
         <button
           className={isPortfolioRoute ? "buttonsPortfolio" : "buttonsHome"}
           onClick={() => {
+            window.scrollTo({ top: 0 });
             navigate("/contact");
           }}
         >
