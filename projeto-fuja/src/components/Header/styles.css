@@ -1,5 +1,6 @@
 .header {
-  width: 100%;
+
+ width: 100%;
   height: 8.4rem;
   background-color: rgba(255, 255, 255, 0.7);
   padding: 1.6rem 11.9rem;
@@ -34,6 +35,8 @@
 .logo-icon {
   border-radius: 50%;
   cursor: pointer;
+  width: 6rem;
+  height: 6rem;
 }
 
 .header nav {
@@ -99,10 +102,19 @@
 }
 
 .btnSvg {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../../../public/img/iconWhite.svg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+  height: 5.6rem;
+  width: 5.6rem;
+  
+  border: solid 0.1rem #ffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.btnSvg img{
   width: 1.6rem;
   height: 1.6rem;
 }
@@ -126,7 +138,7 @@
 .titleModalHeader {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 3.2rem;
 
   cursor: pointer;
@@ -147,6 +159,11 @@
   gap: 2.4rem;
 }
 
+.footerModalImg{
+  width: 12rem;
+  height: 12rem;
+}
+
 .textModalFooter {
   width: 21rem;
 
@@ -158,4 +175,61 @@
   line-height: 3.6rem;
 
   color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  
+  .header {
+    height: 6rem; 
+    padding: 1.2rem ;
+
+   justify-content: center;
+   position: fixed;
+   top: 0;
+
+  }
+  
+  .header button{
+    display: none;
+  }
+
+  .logo-icon {
+  
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .header nav
+  {
+    left: 1.6rem;
+    position: absolute;
+    width: 4.6rem;
+    height: 4.6rem;
+  }
+
+  .modal{
+    width: 85vw;
+    padding: 1.2rem 1.6rem;
+    justify-content: flex-start;
+    
+    position: fixed;
+   top: 0;
+   z-index: 1002;
+  }
+
+  .btnSvg{
+    width: 4.6rem;
+    height: 4.6rem;
+  }
+
+  .boxNavModal{
+    margin-top: 5rem;
+    margin-bottom: 16rem;
+
+  }
+
+  .footerModalImg{
+    width: 8rem;
+    height: 8rem;
+  }
 }

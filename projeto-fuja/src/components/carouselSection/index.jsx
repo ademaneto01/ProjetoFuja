@@ -55,20 +55,27 @@ const carrouselItems = [
 ];
 
 function Pagination({ swaper, indexCarrouselItem }) {
-  console.log(swaper);
-
   const dot = "/img/carrouselDot.svg";
   const dotActivated = "/img/carrouselDotActivated.svg";
 
   return (
     <div className="carrouselPagination">
-      <PrevButton onClick={() => swaper.current.slickPrev()} />
+      <PrevButton
+        className="carrouselPaginationButtons"
+        onClick={() => swaper.current.slickPrev()}
+      />
       <div>
         <img src={indexCarrouselItem === 0 ? dotActivated : dot} />
         <img src={indexCarrouselItem === 1 ? dotActivated : dot} />
         <img src={indexCarrouselItem === 2 ? dotActivated : dot} />
       </div>
-      <NextButton onClick={() => swaper.current.slickNext()} />
+      <NextButton
+        className="carrouselPaginationButtons"
+        onClick={() => {
+          console.log(swaper.current);
+          swaper.current.slickNext();
+        }}
+      />
     </div>
   );
 }
@@ -108,8 +115,8 @@ const CarouselSection = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    afterChange: function (index) {
-      setIndexCarrouselItem(index);
+    beforeChange: function (oldIndex, newIndex) {
+      setIndexCarrouselItem(newIndex);
     },
   };
 

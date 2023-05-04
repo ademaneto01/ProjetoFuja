@@ -7,6 +7,9 @@ import Modal from "@mui/material/Modal";
 import { useState } from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import VideosPortfolio from "../../components/VideosPortfolio";
+import DepoimentosSection from "../../components/DepoimentosSection";
+import WeWorkWithSection from "../../components/WeWorkWithSection";
 
 export default function Portfolio() {
   const [open, setOpen] = useState(false);
@@ -29,7 +32,16 @@ export default function Portfolio() {
             </div>
             <div className="boxVideosModal">
               <div className="boxInternoVideoModal">
-                <div id="videoModal1">
+                <div
+                  onClick={() => {
+                    window.open(
+                      "https://www.instagram.com/reel/CjG1qqiJ_Lp/?igshid=YmMyMTA2M2Y=",
+                      "_blank"
+                    );
+                  }}
+                  className="videoModal"
+                  id="videoModal1"
+                >
                   <div className="btnPlayModal">
                     <div className="iconPlayModal" />
                   </div>
@@ -37,7 +49,16 @@ export default function Portfolio() {
                 <div className="textVideoModal">Apoio ao Movimento Grauça</div>
               </div>
               <div className="boxInternoVideoModal">
-                <div id="videoModal2">
+                <div
+                  onClick={() => {
+                    window.open(
+                      "https://www.instagram.com/reel/Ch8Db4KJZkW/?igshid=YmMyMTA2M2Y=",
+                      "_blank"
+                    );
+                  }}
+                  className="videoModal"
+                  id="videoModal2"
+                >
                   <div className="btnPlayModal">
                     <div className="iconPlayModal"></div>
                   </div>
@@ -47,7 +68,16 @@ export default function Portfolio() {
                 </div>
               </div>
               <div className="boxInternoVideoModal">
-                <div id="videoModal3">
+                <div
+                  onClick={() => {
+                    window.open(
+                      "https://www.instagram.com/reel/Cjqyn7dJg15/?igshid=YmMyMTA2M2Y=",
+                      "_blank"
+                    );
+                  }}
+                  className="videoModal"
+                  id="videoModal3"
+                >
                   <div className="btnPlayModal">
                     <div className="iconPlayModal"></div>
                   </div>
@@ -55,7 +85,16 @@ export default function Portfolio() {
                 <div className="textVideoModal">Conscientização ambiental</div>
               </div>
               <div className="boxInternoVideoModal">
-                <div id="videoModal4">
+                <div
+                  onClick={() => {
+                    window.open(
+                      "https://www.instagram.com/reel/CdHAEB4JddS/?igshid=YmMyMTA2M2Y=",
+                      "_blank"
+                    );
+                  }}
+                  className="videoModal"
+                  id="videoModal4"
+                >
                   <div className="btnPlayModal">
                     <div className="iconPlayModal"></div>
                   </div>
@@ -79,8 +118,11 @@ export default function Portfolio() {
         <div className="boxInfosPortfolioInicial">
           <div className="boxTextIni">
             <div className="boxTitle">
-              <p>Portfólio do Fuja</p>
+              <div>
+                <p>Portfólio do Fuja</p>
+              </div>
             </div>
+
             <div className="boxTxt">
               <p>
                 Como parte fundamental dos valores do Fuja, a participação
@@ -91,88 +133,18 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-      <div className="boxVideosPortfolio">
-        <div className="boxTitleVideos">
-          <p>Dentre elas, podemos destacar:</p>
-        </div>
-
-        <div className="ContainerMoviePortfolio">
-          <div id="boxVideoPortfolioOne"></div>
-          <div id="boxInfosVideoPortfolio">
-            <div className="txtVideoPortfolio">
-              Produção de minissérie de 8 episódios + 1 curta metragem
-              apresentando referências em sustentabilidade no litoral norte da
-              Bahia
-            </div>
-            <div className="boxBtnVideo">
-              <button id="btn1">Assistir minissérie</button>
-            </div>
-          </div>
-        </div>
-
-        <div className="ContainerMoviePortfolio">
-          <div id="boxVideoPortfolioTwo"></div>
-          <div id="boxInfosVideoPortfolio">
-            <div className="txtVideoPortfolio">
-              Vídeo roteirizado e produzido para as redes sociais do Fuja
-              contando sobre o sentimento "Saudade e a estrada"
-            </div>
-            <div className="boxBtnVideo">
-              <button id="btn2">Assistir vídeo</button>
-            </div>
-          </div>
-        </div>
-
-        <div className="ContainerMoviePortfolio">
-          <div id="boxVideoPortfolioTree"></div>
-          <div id="boxInfosVideoPortfolio">
-            <div className="txtVideoPortfolio">
-              Vídeo institucional de fechamento da Campanha Bosques da Memória
-              da Reserva da Biosfera da Mata Atlântica
-            </div>
-            <div className="boxBtnVideo">
-              <button id="btn2">Assistir vídeo</button>
-            </div>
-          </div>
-        </div>
-
-        <div className="ContainerMoviePortfolio">
-          <div id="boxVideoPortfolioFour"></div>
-          <div id="boxInfosVideoPortfolio">
-            <div className="txtVideoPortfolio">
-              Clipe “Do Brasil (Vander Lee)" com a Mariene de Castro e Laura
-              Catarina
-            </div>
-            <div className="boxBtnVideo">
-              <button id="btn1">Assistir vídeoclipe</button>
-            </div>
-          </div>
-        </div>
-
-        <div className="ContainerMoviePortfolio">
-          <div id="boxVideoPortfolioFive"></div>
-          <div id="boxInfosVideoPortfolio">
-            <div className="txtVideoPortfolio">
-              Vídeos produzidos na região de Serra Grande a fim de divulgar
-              projetos que acreditamos e pautas que são valores do Fuja
-            </div>
-            <div className="boxBtnVideo">
-              <button id="btn2" onClick={handleOpen}>
-                Assistir vídeos
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+      <VideosPortfolio handleOpen={handleOpen} />
       <div className="containerTime">
         <div className="ContainerTitleTime">
           <div className="boxTitleTime">
-            <p>O time do Fuja</p>
+            <div>
+              <p>O time do Fuja</p>
+            </div>
           </div>
         </div>
         <div className="boxPicturesTime">
           <div className="boxPicture">
-            <div className="pictureTimeMi"></div>
+            <div className="pictureTimeMi pictureTime"></div>
             <div className="nameTime">Fred Becker</div>
             <div className="textTime">
               <p>
@@ -183,7 +155,7 @@ export default function Portfolio() {
             </div>
           </div>
           <div className="boxPicture">
-            <div className="pictureTimePrimo"></div>
+            <div className="pictureTimePrimo pictureTime"></div>
             <div className="nameTime">Rafael Juan</div>
             <div className="textTime">
               Turismólogo de formação, é a mente por trás da direção e arte dos
@@ -193,7 +165,7 @@ export default function Portfolio() {
             </div>
           </div>
           <div className="boxPicture">
-            <div className="pictureTimeMoreno"></div>
+            <div className="pictureTimeMoreno pictureTime"></div>
             <div className="nameTime">Moreno Becker</div>
             <div className="textTime">
               Formado em administração e mestre em Políticas Públicas, é o
@@ -202,71 +174,8 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-      <div className="containerDepoimentos">
-        <div className="ContainerTitleDepoimento">
-          <p>Depoimentos</p>
-        </div>
-        <div className="containerInfoDepoimentos">
-          <div className="boxDepoimentos">
-            <div id="textDepoimentos">
-              <p>
-                “A equipe do Fuja não só filma, mas vivencia a questão
-                ambiental. Trazem imagens não só belas, mas emocionantes mesmo.”
-              </p>
-            </div>
-            <div className="boxNomeDepoimento">
-              <div className="nomeDepoimento">Clayton Lino</div>
-              <div id="descriDepoimento">
-                <p>Presidente da Reserva da Biosfera da Mata Atlântica</p>
-              </div>
-            </div>
-            <div id="pictureDepoimento1"></div>
-          </div>
-          <div className="boxDepoimentos">
-            <div id="textDepoimentos">
-              <p>
-                “A live realizada com o Fuja foi linda. Muita gente assistiu e
-                amou!”
-              </p>
-            </div>
-            <div className="boxNomeDepoimento">
-              <div className="nomeDepoimento">Minah Almeida</div>
-              <div id="descriDepoimento">
-                <p>Fundação Terra Mirim</p>
-              </div>
-            </div>
-            <div id="pictureDepoimento2"></div>
-          </div>
-        </div>
-      </div>
-      <div className="containerParcerias">
-        <div className="boxImgParcerias">
-          <div className="ContainerTitleParcerias">
-            <div className="boxTitleParcerias">
-              <p>Já trabalhamos com</p>
-            </div>
-          </div>
-          <div className="containerImgParcerias">
-            <div className="imgsParcerias1">
-              <div className="imgTop1"></div>
-              <div className="imgTop2"></div>
-              <div className="imgTop3"></div>
-              <div className="imgTop4"></div>
-              <div className="imgTop5"></div>
-              <div className="imgTop6"></div>
-              <div className="imgTop7"></div>
-            </div>
-            <div className="imgsParcerias1">
-              <div className="imgBottom1"></div>
-              <div className="imgBottom2"></div>
-              <div className="imgBottom3"></div>
-              <div className="imgBottom4"></div>
-              <div className="imgBottom5"></div>
-              <div className="imgBottom6"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <DepoimentosSection />
+      <WeWorkWithSection />
       <div id="modalPortfolio">
         <div className="boxModal"></div>
       </div>
