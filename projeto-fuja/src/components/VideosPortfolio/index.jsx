@@ -35,7 +35,7 @@ function VideosPortfolio({ handleOpen }) {
 
       <div className="ContainerMoviePortfolio">
         <div className="boxVideoPortfolio">
-          <img className="imgVideoPortfolio" src="img/rec2.svg" alt="" />
+          <img className="imgVideoPortfolio" src="img/rec04.svg" alt="" />
         </div>
         <div className="boxInfosVideoPortfolio">
           <div className="txtVideoPortfolio">
@@ -85,7 +85,7 @@ function VideosPortfolio({ handleOpen }) {
 
       <div className="ContainerMoviePortfolio">
         <div className="boxVideoPortfolio">
-          <img className="imgVideoPortfolio" src="img/rec04.svg" alt="" />
+          <img className="imgVideoPortfolio" src="img/rec2.svg" alt="" />
         </div>
         <div className="boxInfosVideoPortfolio">
           <div className="txtVideoPortfolio">
