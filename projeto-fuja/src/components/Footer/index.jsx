@@ -25,7 +25,7 @@ const Footer = () => {
               navigate("/portfolio");
             }}
           >
-            Portifólio
+            Portfólio
           </a>
           <a href="">Portal de aventuras</a>
           <a
@@ -37,7 +37,7 @@ const Footer = () => {
           </a>
         </nav>
         <div className="social-media">
-          <p>Acompanhe a gente nas redes sociais</p>
+          <p>Ou fale conosco nas nossas redes sociais:</p>
           <div className="social-media-icons">
             <a href="https://www.youtube.com/@FUJAbr/videos" target="_blank">
               <img src="/img/social-icons/youtube.svg" alt="youtube" />

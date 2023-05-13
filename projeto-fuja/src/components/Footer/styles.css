@@ -130,6 +130,7 @@ padding: 2.4rem 7.4rem;
 
   .left-container p {
     width: 100%;
+    height: auto;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -160,6 +161,10 @@ padding: 2.4rem 7.4rem;
   .social-media{
     padding: 2.4rem;
     align-items: center;
+  }
+
+  .social-media p{
+    text-align: center;
   }
 
   .contact{
