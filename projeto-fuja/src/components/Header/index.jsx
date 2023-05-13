@@ -65,16 +65,18 @@ const Header = () => {
         className="header"
         style={{ position: openModal ? "absolute" : "fixed" }}
       >
-        <nav
-          className={isPortfolioRoute ? "buttonsPortfolio" : "buttonsHome"}
-          onClick={() => setOpenModal(true)}
-        >
-          <img
-            src="/img/menu.png"
-            alt="simbolo de menu"
-            className="menu-icon"
-          />
-        </nav>
+        <div className="navButtonHeader">
+          <nav
+            className={isPortfolioRoute ? "buttonsPortfolio" : "buttonsHome"}
+            onClick={() => setOpenModal(true)}
+          >
+            <img
+              src="/img/menu.png"
+              alt="simbolo de menu"
+              className="menu-icon"
+            />
+          </nav>
+        </div>
 
         <img
           src="/img/logoFuja.svg"
