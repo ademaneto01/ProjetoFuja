@@ -10,7 +10,10 @@ export default function Contact() {
         <div className="contactPageInfo">
           <h1>FUJA DO CONVENCIONAL</h1>
           <div className="contactList">
-            <h2>Entre em contato</h2>
+            <h2>
+              Desenvolva o seu projeto audiovisual com o Fuja, só chamar a gente
+              em:
+            </h2>
             <a href="mailto:fuja@gmail.com">fuja@gmail.com</a>
             <a href="tel:5511983743838">+55 (11) 98374-3838</a>
             <div className="contactSocialMedia">

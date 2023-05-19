@@ -1,7 +1,7 @@
 .containerCarrousel {
   display: flex;
 
-  height: 100vh;
+  padding: 8rem 0;
 
   justify-content: center;
   align-items: center;
@@ -87,8 +87,8 @@
 
 @media screen and (max-width: 767px) {
   .containerCarrousel {
-    height: 90rem;
-    padding: 1.6rem;
+    
+    padding: 1.6rem 1.6rem 32rem;
 
     justify-content: flex-start;
     align-items: flex-start;
